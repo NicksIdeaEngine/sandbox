@@ -6,101 +6,72 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 
+/**
+ * Challenge: Wire up the partially-finished travel form so that it works!
+ * Remember to use the concept of controlled forms
+ * https://reactjs.org/docs/forms.html
+ *
+ * All information should be populating the text below the form in real-time
+ * as you're filling it out
+ *
+ * This exercise is adapted from the V School curriculum on vanilla JS forms:
+ * https://coursework.vschool.io/travel-form/
+ *
+ * All of our challenges and learning resources are open for the public
+ * to play around with and learn from at https://coursework.vschool.io
+ */
+
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      firstName: '',
-      lastName: '',
-      isFriendly: true,
-      gender: '',
-      favColor: 'blue',
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    const { name, value, type, checked } = event.target;
-    type === 'checkbox'
-      ? this.setState({ [name]: checked })
-      : this.setState({
-          [name]: value,
-        });
+    this.state = {};
   }
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <input
-          type="text"
-          value={this.state.firstName}
-          placeholder="First Name"
-          name="firstName"
-          onChange={this.handleChange}
-        />
-        <br />
-        <input
-          type="text"
-          value={this.state.lastName}
-          placeholder="Last Name"
-          name="lastName"
-          onChange={this.handleChange}
-        />
-        <br />
-        <textarea
-          name="response"
-          id="userResponse"
-          cols="30"
-          rows="10"
-          value="some value"
-          onChange={this.handleChange}
-        />
-        <br />
-        <label htmlFor="checked">
-          <input
-            type="checkbox"
-            name="isFriendly"
-            checked={this.state.isFriendly}
-            onChange={this.handleChange}
-          />
-          &nbsp;Is friendly?
-        </label>
-        <br />
-        <label htmlFor="radio">
-          <input
-            type="radio"
-            name="gender"
-            value="male"
-            checked={this.state.gender === 'male'}
-            onChange={this.handleChange}
-          />
-          &nbsp;Male
-        </label>
-        <label htmlFor="radio">
-          <input
-            type="radio"
-            name="gender"
-            value="female"
-            checked={this.state.gender === 'female'}
-            onChange={this.handleChange}
-          />
-          &nbsp;Female
-        </label>
-        <br />
-        <select name="favColor" onChange={this.handleChange}>
-          <option value="blue">Blue</option>
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-          <option value="orange">Orange</option>
-          <option value="purple">Purple</option>
-        </select>
-        <h1>{this.state.firstName}</h1>
-        <h1>{this.state.lastName}</h1>
-        <h1>{this.state.gender}</h1>
-        <h1>{this.state.favColor}</h1>
-        <button type="submit">Send</button>
-      </form>
+      <main>
+        <form>
+          <input placeholder="First Name" />
+          <br />
+          <input placeholder="Last Name" />
+          <br />
+          <input placeholder="Age" />
+          <br />
+
+          {/* Create radio buttons for gender here */}
+          <br />
+
+          {/* Create select box for location here */}
+          <br />
+
+          {/* Create check boxes for dietary restrictions here */}
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+        <hr />
+        <h2>Entered information:</h2>
+        <p>
+          Your name:&nbsp;
+          {/* First and last name here */}
+        </p>
+        <p>
+          Your age:&nbsp;
+          {/* Age here */}
+        </p>
+        <p>
+          Your gender:&nbsp;
+          {/* Gender here */}
+        </p>
+        <p>
+          Your destination:&nbsp;
+          {/* Destination here */}
+        </p>
+        <p>
+          Your dietary restrictions:
+          {/* Dietary restrictions here, comma separated */}
+        </p>
+      </main>
     );
   }
 }
