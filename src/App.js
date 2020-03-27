@@ -1,8 +1,17 @@
-import React from 'react';
-import Form from './components/FormContainer';
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react';
+import Header from './components/Header';
+import MemeGenerator from './components/MemeGenerator';
 
-function App() {
-  return <Form />;
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <MemeGenerator />
+      </div>
+    );
+  }
 }
 
 export default App;
