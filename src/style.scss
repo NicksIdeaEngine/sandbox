@@ -1,5 +1,5 @@
-@import 'colors/gruvbox-light.scss';
-// @import 'colors/gruvbox-dark.scss';
+// @import 'colors/gruvbox-light.scss';
+@import 'colors/gruvbox-dark.scss';
 
 * {
   box-sizing: border-box;
@@ -8,46 +8,22 @@
 body {
   background-color: $bg0_h;
   color: $fg2;
-  font-size: 40px;
+  font-size: 20px;
   font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
   margin: 0;
   padding: 0;
 }
 
 .app {
   background-color: $bg0_h;
-  padding: 1.5em;
-  height: 100vh;
-}
-
-.todo-list {
-  background-color: $fg2;
-  border-radius: 0.2em;
-  padding: 0.25em 0.25em 0.25em;
-  max-width: 21em;
-}
-
-.todo {
-  background-color: $dark_blue;
-  box-shadow: 0.05em 0.05em 0.05em $bg2;
-  padding: 0.15em 0.5em;
-  margin-bottom: 0.3em;
-  border-radius: 0.15em;
-  color: $bg0_h;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.input {
-  width: 100%;
-  box-sizing: border-box;
-  border: 0;
-  background-color: $blue;
-  color: $bg0_h;
-  border-radius: 0.2em;
-  font-size: 1em;
-  box-shadow: none;
-  padding: 0.15em 0.5em;
-  box-shadow: 0.05em 0.05em 0.05em $bg2;
+  padding: 1em;
+  margin: 0 auto;
+  height: 35em;
+  width: 75em;
+  border: 0.1em solid $blue;
 }

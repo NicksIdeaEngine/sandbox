@@ -1,98 +1,83 @@
-/* eslint-disable no-unneeded-ternary */
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable react/prefer-stateless-function */
-import React, { useState } from 'react';
+/* eslint-disable no-console */
+import React, { useEffect, useState } from 'react';
+import useForm from './useForm';
+import useFetch from './useFetch';
+import Hello from './Hello';
 
-function Todo({ todo, index, completeTodo, removeTodo }) {
-  return (
-    <div
-      style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}
-      className="todo"
-    >
-      {todo.text}
-      <div>
-        <button onClick={() => completeTodo(index)}>Complete</button>
-        <button onClick={() => removeTodo(index)}>X</button>
-      </div>
-    </div>
-  );
-}
+const App = () => {
+  const [values, handleChange] = useForm({
+    email: '',
+    password: '',
+    firstName: '',
+  });
+  const temp = localStorage.getItem('count')
+    ? JSON.parse(localStorage.getItem('count'))
+    : 0;
 
-function TodoForm({ addTodo }) {
-  const [value, setValue] = useState('');
+  const [count, setCount] = useState(temp);
+  const { data, loading } = useFetch(`http://numbersapi.com/${count}/trivia`);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!value) return;
-    addTodo(value);
-    setValue('');
-  };
+  useEffect(() => {
+    localStorage.setItem('count', JSON.stringify(count));
+    console.log(count);
+  }, [count]);
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        className="input"
-        value={value}
-        placeholder="Add Todo..."
-        onChange={(e) => setValue(e.target.value)}
-      />
-    </form>
-  );
-}
+  const [showHello, setShowHello] = useState(true);
 
-function App() {
-  const [todos, setTodos] = useState([
-    {
-      text: 'Learn about React Hooks',
-      isCompleted: false,
-    },
-    {
-      text: 'Practice with React Hooks',
-      isCompleted: false,
-    },
-    {
-      text: 'Master React Hooks',
-      isCompleted: false,
-    },
-  ]);
+  // useEffect(() => {
+  //   const onMouseMove = (e) => {
+  //     console.log(e);
+  //   };
+  //   window.addEventListener('mousemove', onMouseMove);
 
-  const addTodo = (text) => {
-    const newTodos = [...todos, { text }];
-    setTodos(newTodos);
-  };
+  //   return () => {
+  //     window.removeEventListener('mousemove', onMouseMove);
+  //   };
+  // }, []);
 
-  const completeTodo = (index) => {
-    const newTodos = [...todos];
-    newTodos[index].isCompleted = newTodos[index].isCompleted ? false : true;
-    setTodos(newTodos);
-  };
+  // useEffect(() => {
+  //   console.log('mount1');
+  // }, []);
 
-  const removeTodo = (index) => {
-    const newTodos = [...todos];
-    newTodos.splice(index, 1);
-    setTodos(newTodos);
-  };
+  // useEffect(() => {
+  //   console.log('mount2');
+  // }, []);
 
   return (
     <div className="app">
-      <div className="todo-list">
-        {todos.map((todo, index) => (
-          <Todo
-            key={index}
-            index={index}
-            todo={todo}
-            completeTodo={completeTodo}
-            removeTodo={removeTodo}
-          />
-        ))}
-        <TodoForm addTodo={addTodo} />
+      <h1>{!data ? '...' : data}</h1>
+      <div>
+        count:&nbsp;
+        {count}
       </div>
+      <button type="button" onClick={() => setCount((c) => c + 1)}>
+        inc
+      </button>
+      {/* <button type="button" onClick={() => setShowHello(!showHello)}>
+        toggle
+      </button>
+      {showHello && <Hello />} */}
+      <input
+        type="email"
+        name="email"
+        value={values.email}
+        onChange={handleChange}
+      />
+      <input
+        type="text"
+        name="firstName"
+        value={values.firstName}
+        onChange={handleChange}
+      />
+      <input
+        type="password"
+        name="password"
+        value={values.password}
+        onChange={handleChange}
+      />
     </div>
   );
-}
+};
 
 export default App;
