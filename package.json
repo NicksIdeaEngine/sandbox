@@ -39,7 +39,7 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "browserlist": {
+  "browserslist": {
     "production": [
       ">0.5%",
       "not dead",
