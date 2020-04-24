@@ -1,25 +1,9 @@
 @import '../colors/gruvbox-light.scss';
 // @import '../colors/gruvbox-dark.scss';
 
-* {
-  box-sizing: border-box;
-}
-
-body,
-.page,
-.app {
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@500&display=swap');
 
 body {
   background-color: $bg0_h;
-  color: $fg4;
-  font-family: 'Roboto', sans-serif;
-}
-
-.app {
-  > h1 {
-    color: $blue;
-  }
+  color: $fg0;
 }

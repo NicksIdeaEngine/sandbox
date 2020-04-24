@@ -3,8 +3,8 @@ import { Global, css } from '@emotion/core';
 
 const styles = css`
   /* http://meyerweb.com/eric/tools/css/reset/
-  v2.0 | 20110126
-  License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
   */
   html,
   body,
@@ -13,12 +13,6 @@ const styles = css`
   applet,
   object,
   iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
   p,
   blockquote,
   pre,
@@ -92,7 +86,22 @@ const styles = css`
     border: 0;
     font-size: 20px;
     color: #282828;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    vertical-align: baseline;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    color: #282828;
+    font-family: 'Fira Code', 'Roboto', sans-serif;
     vertical-align: baseline;
   }
 
