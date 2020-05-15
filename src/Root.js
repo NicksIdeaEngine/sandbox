@@ -4,8 +4,8 @@ import styled from '@emotion/styled';
 import GlobalStyles from './styles/GlobalStyles';
 
 const PageContainer = styled.main`
-  max-width: 20em;
   margin: 0 auto;
+  max-width: 55em;
 `;
 
 const Root = ({ children }) => {
