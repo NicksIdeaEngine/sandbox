@@ -64,5 +64,6 @@ module.exports = (env) => ({
     new HtmlWebpackPlugin({
       template: path.join(PATH_SOURCE, './index.html'),
     }),
+    // new HtmlWebpackPlugin.HotModuleReplacementPlugin(),
   ],
 });
