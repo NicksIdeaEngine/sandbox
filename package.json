@@ -19,6 +19,8 @@
   "scripts": {
     "clean-dist": "rimraf dist/*",
     "clean-public": "rimraf public/*",
+    "clean-lib": "rimraf src/lib/*",
+    "clean-components": "rimraf src/components/*",
     "predev": "npm run clean-dist",
     "dev": "webpack --env.development --config webpack.config.js",
     "prebuild": "npm run clean-dist",
