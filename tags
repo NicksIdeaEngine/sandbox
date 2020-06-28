@@ -1,0 +1,957 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0c78c0c4/
+*	src/styles/reset.css	/^* {$/;"	s
+*	src/styles/reset.css	/^*, *:before, *:after {$/;"	s
+*:after	src/styles/reset.css	/^*, *:before, *:after {$/;"	s
+*:before	src/styles/reset.css	/^*, *:before, *:after {$/;"	s
+0	package.json	/^    "frontend",$/;"	s	array:keywords
+1	package.json	/^    "web development",$/;"	s	array:keywords
+2	package.json	/^    "javascript",$/;"	s	array:keywords
+3	package.json	/^    "react"$/;"	s	array:keywords
+@babel/cli	package.json	/^    "@babel\/cli": "^7.10.3",$/;"	s	object:devDependencies
+@babel/core	package.json	/^    "@babel\/core": "^7.10.3",$/;"	s	object:devDependencies
+@babel/preset-env	package.json	/^    "@babel\/preset-env": "^7.10.3",$/;"	s	object:devDependencies
+@babel/preset-react	package.json	/^    "@babel\/preset-react": "^7.10.1",$/;"	s	object:devDependencies
+@emotion/core	package.json	/^    "@emotion\/core": "^10.0.28",$/;"	s	object:dependencies
+@emotion/styled	package.json	/^    "@emotion\/styled": "^10.0.27",$/;"	s	object:dependencies
+App	src/App.js	/^function App() {$/;"	f
+AppContainer	src/App.js	/^const AppContainer = styled.div`$/;"	C
+Family	src/components/TopContext.js	/^const Family = (props) => ($/;"	C
+GlobalStyles	src/styles/GlobalStyles.js	/^const GlobalStyles = () => <Global styles={styles} \/>$/;"	C
+HtmlWebpackPlugin	webpack.config.js	/^const HtmlWebpackPlugin = require('html-webpack-plugin')$/;"	C
+MainContainer	src/styles/MainStyles.js	/^const MainContainer = styled.main`$/;"	C
+MainStyles	src/styles/MainStyles.js	/^const MainStyles = ({ children }) => ($/;"	C
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100.svg	/^<font id="Montserrat" horiz-adv-x="626" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100.svg	/^<font id="Montserrat" horiz-adv-x="626" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100italic.svg	/^<font id="Montserrat" horiz-adv-x="628" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100italic.svg	/^<font id="Montserrat" horiz-adv-x="628" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200.svg	/^<font id="Montserrat" horiz-adv-x="629" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200.svg	/^<font id="Montserrat" horiz-adv-x="629" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200italic.svg	/^<font id="Montserrat" horiz-adv-x="632" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200italic.svg	/^<font id="Montserrat" horiz-adv-x="632" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300.svg	/^<font id="Montserrat" horiz-adv-x="634" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300.svg	/^<font id="Montserrat" horiz-adv-x="634" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300italic.svg	/^<font id="Montserrat" horiz-adv-x="636" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300italic.svg	/^<font id="Montserrat" horiz-adv-x="636" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500.svg	/^<font id="Montserrat" horiz-adv-x="646" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500.svg	/^<font id="Montserrat" horiz-adv-x="646" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500italic.svg	/^<font id="Montserrat" horiz-adv-x="649" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500italic.svg	/^<font id="Montserrat" horiz-adv-x="649" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600.svg	/^<font id="Montserrat" horiz-adv-x="654" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600.svg	/^<font id="Montserrat" horiz-adv-x="654" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600italic.svg	/^<font id="Montserrat" horiz-adv-x="657" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600italic.svg	/^<font id="Montserrat" horiz-adv-x="657" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700.svg	/^<font id="Montserrat" horiz-adv-x="662" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700.svg	/^<font id="Montserrat" horiz-adv-x="662" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700italic.svg	/^<font id="Montserrat" horiz-adv-x="665" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700italic.svg	/^<font id="Montserrat" horiz-adv-x="665" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800.svg	/^<font id="Montserrat" horiz-adv-x="672" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800.svg	/^<font id="Montserrat" horiz-adv-x="672" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800italic.svg	/^<font id="Montserrat" horiz-adv-x="675" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800italic.svg	/^<font id="Montserrat" horiz-adv-x="675" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900.svg	/^<font id="Montserrat" horiz-adv-x="682" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900.svg	/^<font id="Montserrat" horiz-adv-x="682" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900italic.svg	/^<font id="Montserrat" horiz-adv-x="685" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900italic.svg	/^<font id="Montserrat" horiz-adv-x="685" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-italic.svg	/^<font id="Montserrat" horiz-adv-x="642" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-italic.svg	/^<font id="Montserrat" horiz-adv-x="642" ><font-face$/;"	i
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-regular.svg	/^<font id="Montserrat" horiz-adv-x="639" ><font-face$/;"	d
+Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-regular.svg	/^<font id="Montserrat" horiz-adv-x="639" ><font-face$/;"	i
+MyContext	src/components/TopContext.js	/^const MyContext = createContext()$/;"	C
+MyProvider	src/components/TopContext.js	/^class MyProvider extends Component {$/;"	c
+PATH_DIST	webpack.config.js	/^const PATH_DIST = path.join(__dirname, '.\/dist')$/;"	C
+PATH_SOURCE	webpack.config.js	/^const PATH_SOURCE = path.join(__dirname, '.\/src')$/;"	C
+PageContainer	src/Root.js	/^const PageContainer = styled.div`$/;"	C
+Person	src/components/TopContext.js	/^class Person extends Component {$/;"	c
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100italic.svg	/^<font id="Roboto" horiz-adv-x="1092" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100italic.svg	/^<font id="Roboto" horiz-adv-x="1092" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-300.svg	/^<font id="Roboto" horiz-adv-x="1135" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-300.svg	/^<font id="Roboto" horiz-adv-x="1135" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-300italic.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-300italic.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-500.svg	/^<font id="Roboto" horiz-adv-x="1176" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-500.svg	/^<font id="Roboto" horiz-adv-x="1176" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-500italic.svg	/^<font id="Roboto" horiz-adv-x="1153" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-500italic.svg	/^<font id="Roboto" horiz-adv-x="1153" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-700.svg	/^<font id="Roboto" horiz-adv-x="1191" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-700.svg	/^<font id="Roboto" horiz-adv-x="1191" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-700italic.svg	/^<font id="Roboto" horiz-adv-x="1167" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-700italic.svg	/^<font id="Roboto" horiz-adv-x="1167" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-900.svg	/^<font id="Roboto" horiz-adv-x="1206" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-900.svg	/^<font id="Roboto" horiz-adv-x="1206" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-900italic.svg	/^<font id="Roboto" horiz-adv-x="1181" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-900italic.svg	/^<font id="Roboto" horiz-adv-x="1181" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-italic.svg	/^<font id="Roboto" horiz-adv-x="1135" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-italic.svg	/^<font id="Roboto" horiz-adv-x="1135" ><font-face$/;"	i
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-regular.svg	/^<font id="Roboto" horiz-adv-x="1158" ><font-face$/;"	d
+Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-regular.svg	/^<font id="Roboto" horiz-adv-x="1158" ><font-face$/;"	i
+Root	src/Root.js	/^const Root = ({ children }) => {$/;"	C
+TopContext	src/components/TopContext.js	/^class TopContext extends Component {$/;"	c
+a	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+abbr	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+acronym	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+address	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+age	src/components/TopContext.js	/^      age: 31,$/;"	p	class:super.state
+alt-aqua	src/assets/palettes/gruvbox-dark.scss	/^$alt-aqua: #8ec07c;$/;"	v
+alt-aqua	src/assets/palettes/gruvbox-light.scss	/^$alt-aqua: #427b58;$/;"	v
+alt-blue	src/assets/palettes/gruvbox-dark.scss	/^$alt-blue: #83a598;$/;"	v
+alt-blue	src/assets/palettes/gruvbox-light.scss	/^$alt-blue: #076678;$/;"	v
+alt-gray	src/assets/palettes/gruvbox-dark.scss	/^$alt-gray: #a89984;$/;"	v
+alt-gray	src/assets/palettes/gruvbox-light.scss	/^$alt-gray: #7c6f64;$/;"	v
+alt-green	src/assets/palettes/gruvbox-dark.scss	/^$alt-green: #b8bb26;$/;"	v
+alt-green	src/assets/palettes/gruvbox-light.scss	/^$alt-green: #79740e;$/;"	v
+alt-orange	src/assets/palettes/gruvbox-dark.scss	/^$alt-orange: #fe8019;$/;"	v
+alt-orange	src/assets/palettes/gruvbox-light.scss	/^$alt-orange: #af3a03;$/;"	v
+alt-purple	src/assets/palettes/gruvbox-dark.scss	/^$alt-purple: #d3869b;$/;"	v
+alt-purple	src/assets/palettes/gruvbox-light.scss	/^$alt-purple: #8f3f71;$/;"	v
+alt-red	src/assets/palettes/gruvbox-dark.scss	/^$alt-red: #fb4934;$/;"	v
+alt-red	src/assets/palettes/gruvbox-light.scss	/^$alt-red: #9d0006;$/;"	v
+alt-yellow	src/assets/palettes/gruvbox-dark.scss	/^$alt-yellow: #fabd2f;$/;"	v
+alt-yellow	src/assets/palettes/gruvbox-light.scss	/^$alt-yellow: #b57614;$/;"	v
+amber100	src/assets/palettes/amber.scss	/^$amber100: #ffecb3;$/;"	v
+amber100	src/assets/palettes/material.scss	/^$amber100: #ffecb3;$/;"	v
+amber200	src/assets/palettes/amber.scss	/^$amber200: #ffe082;$/;"	v
+amber200	src/assets/palettes/material.scss	/^$amber200: #ffe082;$/;"	v
+amber300	src/assets/palettes/amber.scss	/^$amber300: #ffd54f;$/;"	v
+amber300	src/assets/palettes/material.scss	/^$amber300: #ffd54f;$/;"	v
+amber400	src/assets/palettes/amber.scss	/^$amber400: #ffca28;$/;"	v
+amber400	src/assets/palettes/material.scss	/^$amber400: #ffca28;$/;"	v
+amber50	src/assets/palettes/amber.scss	/^$amber50: #fff8e1;$/;"	v
+amber50	src/assets/palettes/material.scss	/^$amber50: #fff8e1;$/;"	v
+amber500	src/assets/palettes/amber.scss	/^$amber500: #ffc107;$/;"	v
+amber500	src/assets/palettes/material.scss	/^$amber500: #ffc107;$/;"	v
+amber600	src/assets/palettes/amber.scss	/^$amber600: #ffb300;$/;"	v
+amber600	src/assets/palettes/material.scss	/^$amber600: #ffb300;$/;"	v
+amber700	src/assets/palettes/amber.scss	/^$amber700: #ffa000;$/;"	v
+amber700	src/assets/palettes/material.scss	/^$amber700: #ffa000;$/;"	v
+amber800	src/assets/palettes/amber.scss	/^$amber800: #ff8f00;$/;"	v
+amber800	src/assets/palettes/material.scss	/^$amber800: #ff8f00;$/;"	v
+amber900	src/assets/palettes/amber.scss	/^$amber900: #ff6f00;$/;"	v
+amber900	src/assets/palettes/material.scss	/^$amber900: #ff6f00;$/;"	v
+ambera100	src/assets/palettes/amber.scss	/^$ambera100: #ffe57f;$/;"	v
+ambera100	src/assets/palettes/material.scss	/^$ambera100: #ffe57f;$/;"	v
+ambera200	src/assets/palettes/amber.scss	/^$ambera200: #ffd740;$/;"	v
+ambera200	src/assets/palettes/material.scss	/^$ambera200: #ffd740;$/;"	v
+ambera400	src/assets/palettes/amber.scss	/^$ambera400: #ffc400;$/;"	v
+ambera400	src/assets/palettes/material.scss	/^$ambera400: #ffc400;$/;"	v
+ambera700	src/assets/palettes/amber.scss	/^$ambera700: #ffab00;$/;"	v
+ambera700	src/assets/palettes/material.scss	/^$ambera700: #ffab00;$/;"	v
+applet	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+aqua	src/assets/palettes/gruvbox-dark.scss	/^$aqua: #689d6a;$/;"	v
+aqua	src/assets/palettes/gruvbox-light.scss	/^$aqua: #689d6a;$/;"	v
+arrowParens	.prettierrc.js	/^  arrowParens: 'always',$/;"	p	class:module.exports
+article	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+article	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+aside	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+aside	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+audio	src/styles/reset.css	/^time, mark, audio, video {$/;"	s
+author	package.json	/^  "author": "Nick Garcia <me@nickgarcia.me> (https:\/\/nickgarcia.me)",$/;"	s
+b	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+babel-eslint	package.json	/^    "babel-eslint": "^10.1.0",$/;"	s	object:devDependencies
+babel-jest	package.json	/^    "babel-jest": "^25.5.1",$/;"	s	object:devDependencies
+babel-loader	package.json	/^    "babel-loader": "^8.1.0",$/;"	s	object:devDependencies
+babel-plugin-emotion	package.json	/^    "babel-plugin-emotion": "^10.0.33",$/;"	s	object:devDependencies
+bg	src/assets/palettes/gruvbox-dark.scss	/^$bg: #1d2021;$/;"	v
+bg	src/assets/palettes/gruvbox-light.scss	/^$bg: #f9f5d7;$/;"	v
+bg0	src/assets/palettes/gruvbox-dark.scss	/^$bg0: #282828;$/;"	v
+bg0	src/assets/palettes/gruvbox-light.scss	/^$bg0: #fbf1c7;$/;"	v
+bg0_h	src/assets/palettes/gruvbox-dark.scss	/^$bg0_h: #1d2021;$/;"	v
+bg0_h	src/assets/palettes/gruvbox-light.scss	/^$bg0_h: #f9f5d7;$/;"	v
+bg0_s	src/assets/palettes/gruvbox-dark.scss	/^$bg0_s: #32302f;$/;"	v
+bg0_s	src/assets/palettes/gruvbox-light.scss	/^$bg0_s: #f2e5bc;$/;"	v
+bg1	src/assets/palettes/gruvbox-dark.scss	/^$bg1: #3c3836;$/;"	v
+bg1	src/assets/palettes/gruvbox-light.scss	/^$bg1: #ebdbb2;$/;"	v
+bg2	src/assets/palettes/gruvbox-dark.scss	/^$bg2: #504945;$/;"	v
+bg2	src/assets/palettes/gruvbox-light.scss	/^$bg2: #d5c4a1;$/;"	v
+bg3	src/assets/palettes/gruvbox-dark.scss	/^$bg3: #665c54;$/;"	v
+bg3	src/assets/palettes/gruvbox-light.scss	/^$bg3: #bdae93;$/;"	v
+bg4	src/assets/palettes/gruvbox-dark.scss	/^$bg4: #7c6f64;$/;"	v
+bg4	src/assets/palettes/gruvbox-light.scss	/^$bg4: #a89984;$/;"	v
+big	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+black	src/assets/palettes/gray.scss	/^$black: #000000;$/;"	v
+black	src/assets/palettes/material.scss	/^$black: #000000;$/;"	v
+blockquote	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+blockquote	src/styles/reset.css	/^blockquote, q {$/;"	s
+blockquote:after	src/styles/reset.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:before	src/styles/reset.css	/^blockquote:before, blockquote:after,$/;"	s
+blue	src/assets/palettes/gruvbox-dark.scss	/^$blue: #458588;$/;"	v
+blue	src/assets/palettes/gruvbox-light.scss	/^$blue: #458588;$/;"	v
+blue-gray100	src/assets/palettes/blue-gray.scss	/^$blue-gray100: #cfd8dc;$/;"	v
+blue-gray100	src/assets/palettes/material.scss	/^$blue-gray100: #cfd8dc;$/;"	v
+blue-gray200	src/assets/palettes/blue-gray.scss	/^$blue-gray200: #b0bec5;$/;"	v
+blue-gray200	src/assets/palettes/material.scss	/^$blue-gray200: #b0bec5;$/;"	v
+blue-gray300	src/assets/palettes/blue-gray.scss	/^$blue-gray300: #90a4ae;$/;"	v
+blue-gray300	src/assets/palettes/material.scss	/^$blue-gray300: #90a4ae;$/;"	v
+blue-gray400	src/assets/palettes/blue-gray.scss	/^$blue-gray400: #78909c;$/;"	v
+blue-gray400	src/assets/palettes/material.scss	/^$blue-gray400: #78909c;$/;"	v
+blue-gray50	src/assets/palettes/blue-gray.scss	/^$blue-gray50: #eceff1;$/;"	v
+blue-gray50	src/assets/palettes/material.scss	/^$blue-gray50: #eceff1;$/;"	v
+blue-gray500	src/assets/palettes/blue-gray.scss	/^$blue-gray500: #607d8b;$/;"	v
+blue-gray500	src/assets/palettes/material.scss	/^$blue-gray500: #607d8b;$/;"	v
+blue-gray600	src/assets/palettes/blue-gray.scss	/^$blue-gray600: #546e7a;$/;"	v
+blue-gray600	src/assets/palettes/material.scss	/^$blue-gray600: #546e7a;$/;"	v
+blue-gray700	src/assets/palettes/blue-gray.scss	/^$blue-gray700: #455a64;$/;"	v
+blue-gray700	src/assets/palettes/material.scss	/^$blue-gray700: #455a64;$/;"	v
+blue-gray800	src/assets/palettes/blue-gray.scss	/^$blue-gray800: #37474f;$/;"	v
+blue-gray800	src/assets/palettes/material.scss	/^$blue-gray800: #37474f;$/;"	v
+blue-gray900	src/assets/palettes/blue-gray.scss	/^$blue-gray900: #263238;$/;"	v
+blue-gray900	src/assets/palettes/material.scss	/^$blue-gray900: #263238;$/;"	v
+blue100	src/assets/palettes/blue.scss	/^$blue100: #bbdefb;$/;"	v
+blue100	src/assets/palettes/material.scss	/^$blue100: #bbdefb;$/;"	v
+blue200	src/assets/palettes/blue.scss	/^$blue200: #90caf9;$/;"	v
+blue200	src/assets/palettes/material.scss	/^$blue200: #90caf9;$/;"	v
+blue300	src/assets/palettes/blue.scss	/^$blue300: #64b5f6;$/;"	v
+blue300	src/assets/palettes/material.scss	/^$blue300: #64b5f6;$/;"	v
+blue400	src/assets/palettes/blue.scss	/^$blue400: #42a5f5;$/;"	v
+blue400	src/assets/palettes/material.scss	/^$blue400: #42a5f5;$/;"	v
+blue50	src/assets/palettes/blue.scss	/^$blue50: #e3f2fd;$/;"	v
+blue50	src/assets/palettes/material.scss	/^$blue50: #e3f2fd;$/;"	v
+blue500	src/assets/palettes/blue.scss	/^$blue500: #2196f3;$/;"	v
+blue500	src/assets/palettes/material.scss	/^$blue500: #2196f3;$/;"	v
+blue600	src/assets/palettes/blue.scss	/^$blue600: #1e88e5;$/;"	v
+blue600	src/assets/palettes/material.scss	/^$blue600: #1e88e5;$/;"	v
+blue700	src/assets/palettes/blue.scss	/^$blue700: #1976d2;$/;"	v
+blue700	src/assets/palettes/material.scss	/^$blue700: #1976d2;$/;"	v
+blue800	src/assets/palettes/blue.scss	/^$blue800: #1565c0;$/;"	v
+blue800	src/assets/palettes/material.scss	/^$blue800: #1565c0;$/;"	v
+blue900	src/assets/palettes/blue.scss	/^$blue900: #0d47a1;$/;"	v
+blue900	src/assets/palettes/material.scss	/^$blue900: #0d47a1;$/;"	v
+bluea100	src/assets/palettes/blue.scss	/^$bluea100: #82b1ff;$/;"	v
+bluea100	src/assets/palettes/material.scss	/^$bluea100: #82b1ff;$/;"	v
+bluea200	src/assets/palettes/blue.scss	/^$bluea200: #448aff;$/;"	v
+bluea200	src/assets/palettes/material.scss	/^$bluea200: #448aff;$/;"	v
+bluea400	src/assets/palettes/blue.scss	/^$bluea400: #2979ff;$/;"	v
+bluea400	src/assets/palettes/material.scss	/^$bluea400: #2979ff;$/;"	v
+bluea700	src/assets/palettes/blue.scss	/^$bluea700: #2962ff;$/;"	v
+bluea700	src/assets/palettes/material.scss	/^$bluea700: #2962ff;$/;"	v
+body	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+brown100	src/assets/palettes/brown.scss	/^$brown100: #d7ccc8;$/;"	v
+brown100	src/assets/palettes/material.scss	/^$brown100: #d7ccc8;$/;"	v
+brown200	src/assets/palettes/brown.scss	/^$brown200: #bcaaa4;$/;"	v
+brown200	src/assets/palettes/material.scss	/^$brown200: #bcaaa4;$/;"	v
+brown300	src/assets/palettes/brown.scss	/^$brown300: #a1887f;$/;"	v
+brown300	src/assets/palettes/material.scss	/^$brown300: #a1887f;$/;"	v
+brown400	src/assets/palettes/brown.scss	/^$brown400: #8d6e63;$/;"	v
+brown400	src/assets/palettes/material.scss	/^$brown400: #8d6e63;$/;"	v
+brown50	src/assets/palettes/brown.scss	/^$brown50: #efebe9;$/;"	v
+brown50	src/assets/palettes/material.scss	/^$brown50: #efebe9;$/;"	v
+brown500	src/assets/palettes/brown.scss	/^$brown500: #795548;$/;"	v
+brown500	src/assets/palettes/material.scss	/^$brown500: #795548;$/;"	v
+brown600	src/assets/palettes/brown.scss	/^$brown600: #6d4c41;$/;"	v
+brown600	src/assets/palettes/material.scss	/^$brown600: #6d4c41;$/;"	v
+brown700	src/assets/palettes/brown.scss	/^$brown700: #5d4037;$/;"	v
+brown700	src/assets/palettes/material.scss	/^$brown700: #5d4037;$/;"	v
+brown800	src/assets/palettes/brown.scss	/^$brown800: #4e342e;$/;"	v
+brown800	src/assets/palettes/material.scss	/^$brown800: #4e342e;$/;"	v
+brown900	src/assets/palettes/brown.scss	/^$brown900: #3e2723;$/;"	v
+brown900	src/assets/palettes/material.scss	/^$brown900: #3e2723;$/;"	v
+browser	.eslintrc.js	/^    browser: true,$/;"	p	class:module.exports.env
+browserslist	package.json	/^    "browserslist": "^4.12.0",$/;"	s	object:devDependencies
+bugs	package.json	/^  "bugs": {$/;"	o
+build	package.json	/^    "build": "webpack --env.production --config webpack.config.js",$/;"	s	object:scripts
+canvas	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+caption	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+center	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+children	src/Root.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:Root.propTypes
+children	src/styles/MainStyles.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:MainStyles.propTypes
+cite	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+clean-all	package.json	/^    "clean-all": "npm-run-all clean-dist clean-components clean-lib clean-public",$/;"	s	object:scripts
+clean-components	package.json	/^    "clean-components": "rimraf components\/*",$/;"	s	object:scripts
+clean-dist	package.json	/^    "clean-dist": "rimraf dist\/*",$/;"	s	object:scripts
+clean-lib	package.json	/^    "clean-lib": "rimraf lib\/*",$/;"	s	object:scripts
+clean-public	package.json	/^    "clean-public": "rimraf public\/*",$/;"	s	object:scripts
+clearMocks	jest.config.js	/^  clearMocks: true,$/;"	p	class:module.exports
+code	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+code_variable	src/assets/fonts/fira_code/specimen.html	/^<div id="code_variable" class="code variable"><b># Fira Code Variable<\/b>$/;"	I
+color0	src/assets/palettes/gruvbox-dark.scss	/^$color0: #282828;$/;"	v
+color0	src/assets/palettes/gruvbox-light.scss	/^$color0: #fbf1c7;$/;"	v
+color1	src/assets/palettes/gruvbox-dark.scss	/^$color1: #cc241d;$/;"	v
+color1	src/assets/palettes/gruvbox-light.scss	/^$color1: #cc241d;$/;"	v
+color10	src/assets/palettes/gruvbox-dark.scss	/^$color10: #b8bb26;$/;"	v
+color10	src/assets/palettes/gruvbox-light.scss	/^$color10: #79740e;$/;"	v
+color11	src/assets/palettes/gruvbox-dark.scss	/^$color11: #fabd2f;$/;"	v
+color11	src/assets/palettes/gruvbox-light.scss	/^$color11: #b57614;$/;"	v
+color12	src/assets/palettes/gruvbox-dark.scss	/^$color12: #83a598;$/;"	v
+color12	src/assets/palettes/gruvbox-light.scss	/^$color12: #076678;$/;"	v
+color13	src/assets/palettes/gruvbox-dark.scss	/^$color13: #d3869b;$/;"	v
+color13	src/assets/palettes/gruvbox-light.scss	/^$color13: #8f3f71;$/;"	v
+color14	src/assets/palettes/gruvbox-dark.scss	/^$color14: #8ec07c;$/;"	v
+color14	src/assets/palettes/gruvbox-light.scss	/^$color14: #427b58;$/;"	v
+color15	src/assets/palettes/gruvbox-dark.scss	/^$color15: #ebdbb2;$/;"	v
+color15	src/assets/palettes/gruvbox-light.scss	/^$color15: #3c3836;$/;"	v
+color16	src/assets/palettes/gruvbox-dark.scss	/^$color16: #d65d0e;$/;"	v
+color16	src/assets/palettes/gruvbox-light.scss	/^$color16: #d65d0e;$/;"	v
+color17	src/assets/palettes/gruvbox-dark.scss	/^$color17: #fe8019;$/;"	v
+color17	src/assets/palettes/gruvbox-light.scss	/^$color17: #af3a03;$/;"	v
+color2	src/assets/palettes/gruvbox-dark.scss	/^$color2: #98971a;$/;"	v
+color2	src/assets/palettes/gruvbox-light.scss	/^$color2: #98971a;$/;"	v
+color3	src/assets/palettes/gruvbox-dark.scss	/^$color3: #d79921;$/;"	v
+color3	src/assets/palettes/gruvbox-light.scss	/^$color3: #d79921;$/;"	v
+color4	src/assets/palettes/gruvbox-dark.scss	/^$color4: #458588;$/;"	v
+color4	src/assets/palettes/gruvbox-light.scss	/^$color4: #458588;$/;"	v
+color5	src/assets/palettes/gruvbox-dark.scss	/^$color5: #b16286;$/;"	v
+color5	src/assets/palettes/gruvbox-light.scss	/^$color5: #b16286;$/;"	v
+color6	src/assets/palettes/gruvbox-dark.scss	/^$color6: #689d6a;$/;"	v
+color6	src/assets/palettes/gruvbox-light.scss	/^$color6: #689d6a;$/;"	v
+color7	src/assets/palettes/gruvbox-dark.scss	/^$color7: #a89984;$/;"	v
+color7	src/assets/palettes/gruvbox-light.scss	/^$color7: #7c6f64;$/;"	v
+color8	src/assets/palettes/gruvbox-dark.scss	/^$color8: #928374;$/;"	v
+color8	src/assets/palettes/gruvbox-light.scss	/^$color8: #928374;$/;"	v
+color9	src/assets/palettes/gruvbox-dark.scss	/^$color9: #fb4934;$/;"	v
+color9	src/assets/palettes/gruvbox-light.scss	/^$color9: #9d0006;$/;"	v
+commonjs	.eslintrc.js	/^    commonjs: true,$/;"	p	class:module.exports.env
+constructor	src/components/TopContext.js	/^  constructor(props) {$/;"	m	class:MyProvider
+cool	src/components/TopContext.js	/^      cool: true,$/;"	p	class:super.state
+core-js	package.json	/^    "core-js": "^3.6.5",$/;"	s	object:dependencies
+coverageDirectory	jest.config.js	/^  coverageDirectory: 'coverage',$/;"	p	class:module.exports
+coveragePathIgnorePatterns	jest.config.js	/^  coveragePathIgnorePatterns: ['\/node_modules\/'],$/;"	p	class:module.exports
+css-loader	package.json	/^    "css-loader": "^3.6.0",$/;"	s	object:devDependencies
+cyan100	src/assets/palettes/cyan.scss	/^$cyan100: #b2ebf2;$/;"	v
+cyan100	src/assets/palettes/material.scss	/^$cyan100: #b2ebf2;$/;"	v
+cyan200	src/assets/palettes/cyan.scss	/^$cyan200: #80deea;$/;"	v
+cyan200	src/assets/palettes/material.scss	/^$cyan200: #80deea;$/;"	v
+cyan300	src/assets/palettes/cyan.scss	/^$cyan300: #4dd0e1;$/;"	v
+cyan300	src/assets/palettes/material.scss	/^$cyan300: #4dd0e1;$/;"	v
+cyan400	src/assets/palettes/cyan.scss	/^$cyan400: #26c6da;$/;"	v
+cyan400	src/assets/palettes/material.scss	/^$cyan400: #26c6da;$/;"	v
+cyan50	src/assets/palettes/cyan.scss	/^$cyan50: #e0f7fa;$/;"	v
+cyan50	src/assets/palettes/material.scss	/^$cyan50: #e0f7fa;$/;"	v
+cyan500	src/assets/palettes/cyan.scss	/^$cyan500: #00bcd4;$/;"	v
+cyan500	src/assets/palettes/material.scss	/^$cyan500: #00bcd4;$/;"	v
+cyan600	src/assets/palettes/cyan.scss	/^$cyan600: #00acc1;$/;"	v
+cyan600	src/assets/palettes/material.scss	/^$cyan600: #00acc1;$/;"	v
+cyan700	src/assets/palettes/cyan.scss	/^$cyan700: #0097a7;$/;"	v
+cyan700	src/assets/palettes/material.scss	/^$cyan700: #0097a7;$/;"	v
+cyan800	src/assets/palettes/cyan.scss	/^$cyan800: #00838f;$/;"	v
+cyan800	src/assets/palettes/material.scss	/^$cyan800: #00838f;$/;"	v
+cyan900	src/assets/palettes/cyan.scss	/^$cyan900: #006064;$/;"	v
+cyan900	src/assets/palettes/material.scss	/^$cyan900: #006064;$/;"	v
+cyana100	src/assets/palettes/cyan.scss	/^$cyana100: #84ffff;$/;"	v
+cyana100	src/assets/palettes/material.scss	/^$cyana100: #84ffff;$/;"	v
+cyana200	src/assets/palettes/cyan.scss	/^$cyana200: #18ffff;$/;"	v
+cyana200	src/assets/palettes/material.scss	/^$cyana200: #18ffff;$/;"	v
+cyana400	src/assets/palettes/cyan.scss	/^$cyana400: #00e5ff;$/;"	v
+cyana400	src/assets/palettes/material.scss	/^$cyana400: #00e5ff;$/;"	v
+cyana700	src/assets/palettes/cyan.scss	/^$cyana700: #00b8d4;$/;"	v
+cyana700	src/assets/palettes/material.scss	/^$cyana700: #00b8d4;$/;"	v
+dd	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+deep-orange100	src/assets/palettes/deep-orange.scss	/^$deep-orange100: #ffccbc;$/;"	v
+deep-orange100	src/assets/palettes/material.scss	/^$deep-orange100: #ffccbc;$/;"	v
+deep-orange200	src/assets/palettes/deep-orange.scss	/^$deep-orange200: #ffab91;$/;"	v
+deep-orange200	src/assets/palettes/material.scss	/^$deep-orange200: #ffab91;$/;"	v
+deep-orange300	src/assets/palettes/deep-orange.scss	/^$deep-orange300: #ff8a65;$/;"	v
+deep-orange300	src/assets/palettes/material.scss	/^$deep-orange300: #ff8a65;$/;"	v
+deep-orange400	src/assets/palettes/deep-orange.scss	/^$deep-orange400: #ff7043;$/;"	v
+deep-orange400	src/assets/palettes/material.scss	/^$deep-orange400: #ff7043;$/;"	v
+deep-orange50	src/assets/palettes/deep-orange.scss	/^$deep-orange50: #fbe9e7;$/;"	v
+deep-orange50	src/assets/palettes/material.scss	/^$deep-orange50: #fbe9e7;$/;"	v
+deep-orange500	src/assets/palettes/deep-orange.scss	/^$deep-orange500: #ff5722;$/;"	v
+deep-orange500	src/assets/palettes/material.scss	/^$deep-orange500: #ff5722;$/;"	v
+deep-orange600	src/assets/palettes/deep-orange.scss	/^$deep-orange600: #f4511e;$/;"	v
+deep-orange600	src/assets/palettes/material.scss	/^$deep-orange600: #f4511e;$/;"	v
+deep-orange700	src/assets/palettes/deep-orange.scss	/^$deep-orange700: #e64a19;$/;"	v
+deep-orange700	src/assets/palettes/material.scss	/^$deep-orange700: #e64a19;$/;"	v
+deep-orange800	src/assets/palettes/deep-orange.scss	/^$deep-orange800: #d84315;$/;"	v
+deep-orange800	src/assets/palettes/material.scss	/^$deep-orange800: #d84315;$/;"	v
+deep-orange900	src/assets/palettes/deep-orange.scss	/^$deep-orange900: #bf360c;$/;"	v
+deep-orange900	src/assets/palettes/material.scss	/^$deep-orange900: #bf360c;$/;"	v
+deep-orangea100	src/assets/palettes/deep-orange.scss	/^$deep-orangea100: #ff9e80;$/;"	v
+deep-orangea100	src/assets/palettes/material.scss	/^$deep-orangea100: #ff9e80;$/;"	v
+deep-orangea200	src/assets/palettes/deep-orange.scss	/^$deep-orangea200: #ff6e40;$/;"	v
+deep-orangea200	src/assets/palettes/material.scss	/^$deep-orangea200: #ff6e40;$/;"	v
+deep-orangea400	src/assets/palettes/deep-orange.scss	/^$deep-orangea400: #ff3d00;$/;"	v
+deep-orangea400	src/assets/palettes/material.scss	/^$deep-orangea400: #ff3d00;$/;"	v
+deep-orangea700	src/assets/palettes/deep-orange.scss	/^$deep-orangea700: #dd2c00;$/;"	v
+deep-orangea700	src/assets/palettes/material.scss	/^$deep-orangea700: #dd2c00;$/;"	v
+deep-purple100	src/assets/palettes/deep-purple.scss	/^$deep-purple100: #d1c4e9;$/;"	v
+deep-purple100	src/assets/palettes/material.scss	/^$deep-purple100: #d1c4e9;$/;"	v
+deep-purple200	src/assets/palettes/deep-purple.scss	/^$deep-purple200: #b39ddb;$/;"	v
+deep-purple200	src/assets/palettes/material.scss	/^$deep-purple200: #b39ddb;$/;"	v
+deep-purple300	src/assets/palettes/deep-purple.scss	/^$deep-purple300: #9575cd;$/;"	v
+deep-purple300	src/assets/palettes/material.scss	/^$deep-purple300: #9575cd;$/;"	v
+deep-purple400	src/assets/palettes/deep-purple.scss	/^$deep-purple400: #7e57c2;$/;"	v
+deep-purple400	src/assets/palettes/material.scss	/^$deep-purple400: #7e57c2;$/;"	v
+deep-purple50	src/assets/palettes/deep-purple.scss	/^$deep-purple50: #ede7f6;$/;"	v
+deep-purple50	src/assets/palettes/material.scss	/^$deep-purple50: #ede7f6;$/;"	v
+deep-purple500	src/assets/palettes/deep-purple.scss	/^$deep-purple500: #673ab7;$/;"	v
+deep-purple500	src/assets/palettes/material.scss	/^$deep-purple500: #673ab7;$/;"	v
+deep-purple600	src/assets/palettes/deep-purple.scss	/^$deep-purple600: #5e35b1;$/;"	v
+deep-purple600	src/assets/palettes/material.scss	/^$deep-purple600: #5e35b1;$/;"	v
+deep-purple700	src/assets/palettes/deep-purple.scss	/^$deep-purple700: #512da8;$/;"	v
+deep-purple700	src/assets/palettes/material.scss	/^$deep-purple700: #512da8;$/;"	v
+deep-purple800	src/assets/palettes/deep-purple.scss	/^$deep-purple800: #4527a0;$/;"	v
+deep-purple800	src/assets/palettes/material.scss	/^$deep-purple800: #4527a0;$/;"	v
+deep-purple900	src/assets/palettes/deep-purple.scss	/^$deep-purple900: #311b92;$/;"	v
+deep-purple900	src/assets/palettes/material.scss	/^$deep-purple900: #311b92;$/;"	v
+deep-purplea100	src/assets/palettes/deep-purple.scss	/^$deep-purplea100: #b388ff;$/;"	v
+deep-purplea100	src/assets/palettes/material.scss	/^$deep-purplea100: #b388ff;$/;"	v
+deep-purplea200	src/assets/palettes/deep-purple.scss	/^$deep-purplea200: #7c4dff;$/;"	v
+deep-purplea200	src/assets/palettes/material.scss	/^$deep-purplea200: #7c4dff;$/;"	v
+deep-purplea400	src/assets/palettes/deep-purple.scss	/^$deep-purplea400: #651fff;$/;"	v
+deep-purplea400	src/assets/palettes/material.scss	/^$deep-purplea400: #651fff;$/;"	v
+deep-purplea700	src/assets/palettes/deep-purple.scss	/^$deep-purplea700: #6200ea;$/;"	v
+deep-purplea700	src/assets/palettes/material.scss	/^$deep-purplea700: #6200ea;$/;"	v
+del	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "A place to play and learn.",$/;"	s
+details	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+details	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+dev	package.json	/^    "dev": "webpack --env.development --config webpack.config.js",$/;"	s	object:scripts
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+devserver	package.json	/^    "devserver": "webpack-dev-server --env.development --config webpack.config.js",$/;"	s	object:scripts
+dfn	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+div	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+dl	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+dt	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+em	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+email	package.json	/^    "email": "me@nickgarcia.me"$/;"	s	object:bugs
+embed	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+env	.eslintrc.js	/^  env: {$/;"	c	class:module.exports
+es2020	.eslintrc.js	/^    es2020: true,$/;"	p	class:module.exports.env
+eslint	package.json	/^    "eslint": "^6.8.0",$/;"	s	object:devDependencies
+eslint-config-airbnb	package.json	/^    "eslint-config-airbnb": "^18.2.0",$/;"	s	object:devDependencies
+eslint-config-prettier	package.json	/^    "eslint-config-prettier": "^6.11.0",$/;"	s	object:devDependencies
+eslint-loader	package.json	/^    "eslint-loader": "^4.0.2",$/;"	s	object:devDependencies
+eslint-plugin-babel	package.json	/^    "eslint-plugin-babel": "^5.3.0",$/;"	s	object:devDependencies
+eslint-plugin-emotion	package.json	/^    "eslint-plugin-emotion": "^10.0.27",$/;"	s	object:devDependencies
+eslint-plugin-html	package.json	/^    "eslint-plugin-html": "^6.0.2",$/;"	s	object:devDependencies
+eslint-plugin-import	package.json	/^    "eslint-plugin-import": "^2.21.2",$/;"	s	object:devDependencies
+eslint-plugin-jest	package.json	/^    "eslint-plugin-jest": "^23.13.2",$/;"	s	object:devDependencies
+eslint-plugin-jest-formatting	package.json	/^    "eslint-plugin-jest-formatting": "^1.2.0",$/;"	s	object:devDependencies
+eslint-plugin-jsx-a11y	package.json	/^    "eslint-plugin-jsx-a11y": "^6.3.1",$/;"	s	object:devDependencies
+eslint-plugin-prettier	package.json	/^    "eslint-plugin-prettier": "^3.1.4",$/;"	s	object:devDependencies
+eslint-plugin-react	package.json	/^    "eslint-plugin-react": "^7.20.0",$/;"	s	object:devDependencies
+eslint-plugin-react-hooks	package.json	/^    "eslint-plugin-react-hooks": "^3.0.0",$/;"	s	object:devDependencies
+exports	.eslintrc.js	/^module.exports = {$/;"	c	class:module
+exports	.prettierrc.js	/^module.exports = {$/;"	c	class:module
+exports	babel.config.js	/^module.exports = {$/;"	c	class:module
+exports	jest.config.js	/^module.exports = {$/;"	c	class:module
+fg	src/assets/palettes/gruvbox-dark.scss	/^$fg: #fbf1c7;$/;"	v
+fg	src/assets/palettes/gruvbox-light.scss	/^$fg: #282828;$/;"	v
+fg0	src/assets/palettes/gruvbox-dark.scss	/^$fg0: #fbf1c7;$/;"	v
+fg0	src/assets/palettes/gruvbox-light.scss	/^$fg0: #282828;$/;"	v
+fg1	src/assets/palettes/gruvbox-dark.scss	/^$fg1: #ebdbb2;$/;"	v
+fg1	src/assets/palettes/gruvbox-light.scss	/^$fg1: #3c3836;$/;"	v
+fg2	src/assets/palettes/gruvbox-dark.scss	/^$fg2: #d5c4a1;$/;"	v
+fg2	src/assets/palettes/gruvbox-light.scss	/^$fg2: #504945;$/;"	v
+fg3	src/assets/palettes/gruvbox-dark.scss	/^$fg3: #bdae93;$/;"	v
+fg3	src/assets/palettes/gruvbox-light.scss	/^$fg3: #665c54;$/;"	v
+fg4	src/assets/palettes/gruvbox-dark.scss	/^$fg4: #a89984;$/;"	v
+fg4	src/assets/palettes/gruvbox-light.scss	/^$fg4: #7c6f64;$/;"	v
+fieldset	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+figcaption	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+figcaption	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+figure	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+figure	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+file-loader	package.json	/^    "file-loader": "^6.0.0",$/;"	s	object:devDependencies
+fira	src/styles/MainStyles.js	/^const fira = "'Fira Code', sans-serif;"$/;"	C
+footer	src/styles/reset.css	/^article, aside, details, figcaption, figure, footer,$/;"	s
+footer	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+form	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+gray	src/assets/palettes/gruvbox-dark.scss	/^$gray: #928374;$/;"	v
+gray	src/assets/palettes/gruvbox-light.scss	/^$gray: #928374;$/;"	v
+gray100	src/assets/palettes/gray.scss	/^$gray100: #f5f5f5;$/;"	v
+gray100	src/assets/palettes/material.scss	/^$gray100: #f5f5f5;$/;"	v
+gray200	src/assets/palettes/gray.scss	/^$gray200: #eeeeee;$/;"	v
+gray200	src/assets/palettes/material.scss	/^$gray200: #eeeeee;$/;"	v
+gray300	src/assets/palettes/gray.scss	/^$gray300: #e0e0e0;$/;"	v
+gray300	src/assets/palettes/material.scss	/^$gray300: #e0e0e0;$/;"	v
+gray400	src/assets/palettes/gray.scss	/^$gray400: #bdbdbd;$/;"	v
+gray400	src/assets/palettes/material.scss	/^$gray400: #bdbdbd;$/;"	v
+gray50	src/assets/palettes/gray.scss	/^$gray50: #fafafa;$/;"	v
+gray50	src/assets/palettes/material.scss	/^$gray50: #fafafa;$/;"	v
+gray500	src/assets/palettes/gray.scss	/^$gray500: #9e9e9e;$/;"	v
+gray500	src/assets/palettes/material.scss	/^$gray500: #9e9e9e;$/;"	v
+gray600	src/assets/palettes/gray.scss	/^$gray600: #757575;$/;"	v
+gray600	src/assets/palettes/material.scss	/^$gray600: #757575;$/;"	v
+gray700	src/assets/palettes/gray.scss	/^$gray700: #616161;$/;"	v
+gray700	src/assets/palettes/material.scss	/^$gray700: #616161;$/;"	v
+gray800	src/assets/palettes/gray.scss	/^$gray800: #424242;$/;"	v
+gray800	src/assets/palettes/material.scss	/^$gray800: #424242;$/;"	v
+gray900	src/assets/palettes/gray.scss	/^$gray900: #212121;$/;"	v
+gray900	src/assets/palettes/material.scss	/^$gray900: #212121;$/;"	v
+green	src/assets/palettes/gruvbox-dark.scss	/^$green: #98971a;$/;"	v
+green	src/assets/palettes/gruvbox-light.scss	/^$green: #98971a;$/;"	v
+green100	src/assets/palettes/green.scss	/^$green100: #c8e6c9;$/;"	v
+green100	src/assets/palettes/material.scss	/^$green100: #c8e6c9;$/;"	v
+green200	src/assets/palettes/green.scss	/^$green200: #a5d6a7;$/;"	v
+green200	src/assets/palettes/material.scss	/^$green200: #a5d6a7;$/;"	v
+green300	src/assets/palettes/green.scss	/^$green300: #81c784;$/;"	v
+green300	src/assets/palettes/material.scss	/^$green300: #81c784;$/;"	v
+green400	src/assets/palettes/green.scss	/^$green400: #66bb6a;$/;"	v
+green400	src/assets/palettes/material.scss	/^$green400: #66bb6a;$/;"	v
+green50	src/assets/palettes/green.scss	/^$green50: #e8f5e9;$/;"	v
+green50	src/assets/palettes/material.scss	/^$green50: #e8f5e9;$/;"	v
+green500	src/assets/palettes/green.scss	/^$green500: #4caf50;$/;"	v
+green500	src/assets/palettes/material.scss	/^$green500: #4caf50;$/;"	v
+green600	src/assets/palettes/green.scss	/^$green600: #43a047;$/;"	v
+green600	src/assets/palettes/material.scss	/^$green600: #43a047;$/;"	v
+green700	src/assets/palettes/green.scss	/^$green700: #388e3c;$/;"	v
+green700	src/assets/palettes/material.scss	/^$green700: #388e3c;$/;"	v
+green800	src/assets/palettes/green.scss	/^$green800: #2e7d32;$/;"	v
+green800	src/assets/palettes/material.scss	/^$green800: #2e7d32;$/;"	v
+green900	src/assets/palettes/green.scss	/^$green900: #1b5e20;$/;"	v
+green900	src/assets/palettes/material.scss	/^$green900: #1b5e20;$/;"	v
+greena100	src/assets/palettes/green.scss	/^$greena100: #b9f6ca;$/;"	v
+greena100	src/assets/palettes/material.scss	/^$greena100: #b9f6ca;$/;"	v
+greena200	src/assets/palettes/green.scss	/^$greena200: #69f0ae;$/;"	v
+greena200	src/assets/palettes/material.scss	/^$greena200: #69f0ae;$/;"	v
+greena400	src/assets/palettes/green.scss	/^$greena400: #00e676;$/;"	v
+greena400	src/assets/palettes/material.scss	/^$greena400: #00e676;$/;"	v
+greena700	src/assets/palettes/green.scss	/^$greena700: #00c853;$/;"	v
+greena700	src/assets/palettes/material.scss	/^$greena700: #00c853;$/;"	v
+h1	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+h2	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+h3	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+h4	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+h5	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+h6	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+header	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+header	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+hgroup	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+hgroup	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/NicksIdeaEngine\/sandbox",$/;"	s
+html	src/styles/reset.css	/^html {$/;"	s
+html	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+html-webpack-plugin	package.json	/^    "html-webpack-plugin": "^4.3.0",$/;"	s	object:devDependencies
+i	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+iframe	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+img	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+indigo100	src/assets/palettes/indigo.scss	/^$indigo100: #c5cae9;$/;"	v
+indigo100	src/assets/palettes/material.scss	/^$indigo100: #c5cae9;$/;"	v
+indigo200	src/assets/palettes/indigo.scss	/^$indigo200: #9fa8da;$/;"	v
+indigo200	src/assets/palettes/material.scss	/^$indigo200: #9fa8da;$/;"	v
+indigo300	src/assets/palettes/indigo.scss	/^$indigo300: #7986cb;$/;"	v
+indigo300	src/assets/palettes/material.scss	/^$indigo300: #7986cb;$/;"	v
+indigo400	src/assets/palettes/indigo.scss	/^$indigo400: #5c6bc0;$/;"	v
+indigo400	src/assets/palettes/material.scss	/^$indigo400: #5c6bc0;$/;"	v
+indigo50	src/assets/palettes/indigo.scss	/^$indigo50: #e8eaf6;$/;"	v
+indigo50	src/assets/palettes/material.scss	/^$indigo50: #e8eaf6;$/;"	v
+indigo500	src/assets/palettes/indigo.scss	/^$indigo500: #3f51b5;$/;"	v
+indigo500	src/assets/palettes/material.scss	/^$indigo500: #3f51b5;$/;"	v
+indigo600	src/assets/palettes/indigo.scss	/^$indigo600: #3949ab;$/;"	v
+indigo600	src/assets/palettes/material.scss	/^$indigo600: #3949ab;$/;"	v
+indigo700	src/assets/palettes/indigo.scss	/^$indigo700: #303f9f;$/;"	v
+indigo700	src/assets/palettes/material.scss	/^$indigo700: #303f9f;$/;"	v
+indigo800	src/assets/palettes/indigo.scss	/^$indigo800: #283593;$/;"	v
+indigo800	src/assets/palettes/material.scss	/^$indigo800: #283593;$/;"	v
+indigo900	src/assets/palettes/indigo.scss	/^$indigo900: #1a237e;$/;"	v
+indigo900	src/assets/palettes/material.scss	/^$indigo900: #1a237e;$/;"	v
+indigoa100	src/assets/palettes/indigo.scss	/^$indigoa100: #8c9eff;$/;"	v
+indigoa100	src/assets/palettes/material.scss	/^$indigoa100: #8c9eff;$/;"	v
+indigoa200	src/assets/palettes/indigo.scss	/^$indigoa200: #536dfe;$/;"	v
+indigoa200	src/assets/palettes/material.scss	/^$indigoa200: #536dfe;$/;"	v
+indigoa400	src/assets/palettes/indigo.scss	/^$indigoa400: #3d5afe;$/;"	v
+indigoa400	src/assets/palettes/material.scss	/^$indigoa400: #3d5afe;$/;"	v
+indigoa700	src/assets/palettes/indigo.scss	/^$indigoa700: #304ffe;$/;"	v
+indigoa700	src/assets/palettes/material.scss	/^$indigoa700: #304ffe;$/;"	v
+ins	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+jest	.eslintrc.js	/^    jest: true,$/;"	p	class:module.exports.env
+jest	package.json	/^    "jest": "^25.5.4",$/;"	s	object:devDependencies
+jest/globals	.eslintrc.js	/^    'jest\/globals': true,$/;"	p	class:module.exports.env
+kbd	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+keywords	package.json	/^  "keywords": [$/;"	a
+label	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+legend	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+li	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+license	package.json	/^  "license": "MIT",$/;"	s
+light-blue100	src/assets/palettes/light-blue.scss	/^$light-blue100: #b3e5fc;$/;"	v
+light-blue100	src/assets/palettes/material.scss	/^$light-blue100: #b3e5fc;$/;"	v
+light-blue200	src/assets/palettes/light-blue.scss	/^$light-blue200: #81d4fa;$/;"	v
+light-blue200	src/assets/palettes/material.scss	/^$light-blue200: #81d4fa;$/;"	v
+light-blue300	src/assets/palettes/light-blue.scss	/^$light-blue300: #4fc3f7;$/;"	v
+light-blue300	src/assets/palettes/material.scss	/^$light-blue300: #4fc3f7;$/;"	v
+light-blue400	src/assets/palettes/light-blue.scss	/^$light-blue400: #29b6f6;$/;"	v
+light-blue400	src/assets/palettes/material.scss	/^$light-blue400: #29b6f6;$/;"	v
+light-blue50	src/assets/palettes/light-blue.scss	/^$light-blue50: #e1f5fe;$/;"	v
+light-blue50	src/assets/palettes/material.scss	/^$light-blue50: #e1f5fe;$/;"	v
+light-blue500	src/assets/palettes/light-blue.scss	/^$light-blue500: #03a9f4;$/;"	v
+light-blue500	src/assets/palettes/material.scss	/^$light-blue500: #03a9f4;$/;"	v
+light-blue600	src/assets/palettes/light-blue.scss	/^$light-blue600: #039be5;$/;"	v
+light-blue600	src/assets/palettes/material.scss	/^$light-blue600: #039be5;$/;"	v
+light-blue700	src/assets/palettes/light-blue.scss	/^$light-blue700: #0288d1;$/;"	v
+light-blue700	src/assets/palettes/material.scss	/^$light-blue700: #0288d1;$/;"	v
+light-blue800	src/assets/palettes/light-blue.scss	/^$light-blue800: #0277bd;$/;"	v
+light-blue800	src/assets/palettes/material.scss	/^$light-blue800: #0277bd;$/;"	v
+light-blue900	src/assets/palettes/light-blue.scss	/^$light-blue900: #01579b;$/;"	v
+light-blue900	src/assets/palettes/material.scss	/^$light-blue900: #01579b;$/;"	v
+light-bluea100	src/assets/palettes/light-blue.scss	/^$light-bluea100: #80d8ff;$/;"	v
+light-bluea100	src/assets/palettes/material.scss	/^$light-bluea100: #80d8ff;$/;"	v
+light-bluea200	src/assets/palettes/light-blue.scss	/^$light-bluea200: #40c4ff;$/;"	v
+light-bluea200	src/assets/palettes/material.scss	/^$light-bluea200: #40c4ff;$/;"	v
+light-bluea400	src/assets/palettes/light-blue.scss	/^$light-bluea400: #00b0ff;$/;"	v
+light-bluea400	src/assets/palettes/material.scss	/^$light-bluea400: #00b0ff;$/;"	v
+light-bluea700	src/assets/palettes/light-blue.scss	/^$light-bluea700: #0091ea;$/;"	v
+light-bluea700	src/assets/palettes/material.scss	/^$light-bluea700: #0091ea;$/;"	v
+light-green100	src/assets/palettes/light-green.scss	/^$light-green100: #dcedc8;$/;"	v
+light-green100	src/assets/palettes/material.scss	/^$light-green100: #dcedc8;$/;"	v
+light-green200	src/assets/palettes/light-green.scss	/^$light-green200: #c5e1a5;$/;"	v
+light-green200	src/assets/palettes/material.scss	/^$light-green200: #c5e1a5;$/;"	v
+light-green300	src/assets/palettes/light-green.scss	/^$light-green300: #aed581;$/;"	v
+light-green300	src/assets/palettes/material.scss	/^$light-green300: #aed581;$/;"	v
+light-green400	src/assets/palettes/light-green.scss	/^$light-green400: #9ccc65;$/;"	v
+light-green400	src/assets/palettes/material.scss	/^$light-green400: #9ccc65;$/;"	v
+light-green50	src/assets/palettes/light-green.scss	/^$light-green50: #f1f8e9;$/;"	v
+light-green50	src/assets/palettes/material.scss	/^$light-green50: #f1f8e9;$/;"	v
+light-green500	src/assets/palettes/light-green.scss	/^$light-green500: #8bc34a;$/;"	v
+light-green500	src/assets/palettes/material.scss	/^$light-green500: #8bc34a;$/;"	v
+light-green600	src/assets/palettes/light-green.scss	/^$light-green600: #7cb342;$/;"	v
+light-green600	src/assets/palettes/material.scss	/^$light-green600: #7cb342;$/;"	v
+light-green700	src/assets/palettes/light-green.scss	/^$light-green700: #689f38;$/;"	v
+light-green700	src/assets/palettes/material.scss	/^$light-green700: #689f38;$/;"	v
+light-green800	src/assets/palettes/light-green.scss	/^$light-green800: #558b2f;$/;"	v
+light-green800	src/assets/palettes/material.scss	/^$light-green800: #558b2f;$/;"	v
+light-green900	src/assets/palettes/light-green.scss	/^$light-green900: #33691e;$/;"	v
+light-green900	src/assets/palettes/material.scss	/^$light-green900: #33691e;$/;"	v
+light-greena100	src/assets/palettes/light-green.scss	/^$light-greena100: #ccff90;$/;"	v
+light-greena100	src/assets/palettes/material.scss	/^$light-greena100: #ccff90;$/;"	v
+light-greena200	src/assets/palettes/light-green.scss	/^$light-greena200: #b2ff59;$/;"	v
+light-greena200	src/assets/palettes/material.scss	/^$light-greena200: #b2ff59;$/;"	v
+light-greena400	src/assets/palettes/light-green.scss	/^$light-greena400: #76ff03;$/;"	v
+light-greena400	src/assets/palettes/material.scss	/^$light-greena400: #76ff03;$/;"	v
+light-greena700	src/assets/palettes/light-green.scss	/^$light-greena700: #64dd17;$/;"	v
+light-greena700	src/assets/palettes/material.scss	/^$light-greena700: #64dd17;$/;"	v
+lime100	src/assets/palettes/lime.scss	/^$lime100: #f0f4c3;$/;"	v
+lime100	src/assets/palettes/material.scss	/^$lime100: #f0f4c3;$/;"	v
+lime200	src/assets/palettes/lime.scss	/^$lime200: #e6ee9c;$/;"	v
+lime200	src/assets/palettes/material.scss	/^$lime200: #e6ee9c;$/;"	v
+lime300	src/assets/palettes/lime.scss	/^$lime300: #dce775;$/;"	v
+lime300	src/assets/palettes/material.scss	/^$lime300: #dce775;$/;"	v
+lime400	src/assets/palettes/lime.scss	/^$lime400: #d4e157;$/;"	v
+lime400	src/assets/palettes/material.scss	/^$lime400: #d4e157;$/;"	v
+lime50	src/assets/palettes/lime.scss	/^$lime50: #f9fbe7;$/;"	v
+lime50	src/assets/palettes/material.scss	/^$lime50: #f9fbe7;$/;"	v
+lime500	src/assets/palettes/lime.scss	/^$lime500: #cddc39;$/;"	v
+lime500	src/assets/palettes/material.scss	/^$lime500: #cddc39;$/;"	v
+lime600	src/assets/palettes/lime.scss	/^$lime600: #c0ca33;$/;"	v
+lime600	src/assets/palettes/material.scss	/^$lime600: #c0ca33;$/;"	v
+lime700	src/assets/palettes/lime.scss	/^$lime700: #afb42b;$/;"	v
+lime700	src/assets/palettes/material.scss	/^$lime700: #afb42b;$/;"	v
+lime800	src/assets/palettes/lime.scss	/^$lime800: #9e9d24;$/;"	v
+lime800	src/assets/palettes/material.scss	/^$lime800: #9e9d24;$/;"	v
+lime900	src/assets/palettes/lime.scss	/^$lime900: #827717;$/;"	v
+lime900	src/assets/palettes/material.scss	/^$lime900: #827717;$/;"	v
+limea100	src/assets/palettes/lime.scss	/^$limea100: #f4ff81;$/;"	v
+limea100	src/assets/palettes/material.scss	/^$limea100: #f4ff81;$/;"	v
+limea200	src/assets/palettes/lime.scss	/^$limea200: #eeff41;$/;"	v
+limea200	src/assets/palettes/material.scss	/^$limea200: #eeff41;$/;"	v
+limea400	src/assets/palettes/lime.scss	/^$limea400: #c6ff00;$/;"	v
+limea400	src/assets/palettes/material.scss	/^$limea400: #c6ff00;$/;"	v
+limea700	src/assets/palettes/lime.scss	/^$limea700: #aeea00;$/;"	v
+limea700	src/assets/palettes/material.scss	/^$limea700: #aeea00;$/;"	v
+localtunnel	package.json	/^    "localtunnel": "^2.0.0",$/;"	s	object:devDependencies
+localtunnel	package.json	/^    "localtunnel": "lt --port 8080 --subdomain 'smolapp'",$/;"	s	object:scripts
+main	package.json	/^  "main": ".\/src\/index.js",$/;"	s
+main	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+mark	src/styles/reset.css	/^time, mark, audio, video {$/;"	s
+menu	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+menu	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+montserrat	src/styles/MainStyles.js	/^const montserrat = "'Montserrat', sans-serif;"$/;"	C
+name	package.json	/^  "name": "sandbox",$/;"	s
+name	src/components/TopContext.js	/^      name: 'nick',$/;"	p	class:super.state
+nav	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+nav	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+node	.eslintrc.js	/^    node: true,$/;"	p	class:module.exports.env
+node-sass	package.json	/^    "node-sass": "^4.14.1",$/;"	s	object:devDependencies
+npm-run-all	package.json	/^    "npm-run-all": "^4.1.5",$/;"	s	object:devDependencies
+ns00d9b1ef0101	src/assets/fonts/roboto/svg/roboto-v20-latin-500italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns0191499b0101	src/assets/fonts/roboto/svg/roboto-v20-latin-700.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns060aa9ac0101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns20e252f30101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns2a7166c80101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns33b3dd150101	src/assets/fonts/roboto/svg/roboto-v20-latin-100.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns39f39cb00101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns3e55d7f30101	src/assets/fonts/roboto/svg/roboto-v20-latin-900italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns4e372dc20101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns5304e66d0101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns621b9eed0101	src/assets/fonts/roboto/svg/roboto-v20-latin-300italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns679cd0190101	src/assets/fonts/roboto/svg/roboto-v20-latin-500.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns6a9d03d60101	src/assets/fonts/roboto/svg/roboto-v20-latin-regular.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns6ddc8fb40101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns79d070490101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-800italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns86edd9710101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns8bb353c60101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-500italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns8bd7c99a0101	src/assets/fonts/roboto/svg/roboto-v20-latin-italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns9b85c31d0101	src/assets/fonts/roboto/svg/roboto-v20-latin-900.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns9d9637430101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-200italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns9f97c4f10101	src/assets/fonts/roboto/svg/roboto-v20-latin-700italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+ns9fff232e0101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsb69de2d10101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsc35d8beb0101	src/assets/fonts/roboto/svg/roboto-v20-latin-100italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsc92f79ca0101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-900italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nscda856970101	src/assets/fonts/roboto/svg/roboto-v20-latin-300.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsd3e816320101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-700.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsdb125d470101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-600italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsecf540c40101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-300italic.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+nsee2643ed0101	src/assets/fonts/montserrat/svg/montserrat-v14-latin-regular.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
+object	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+ol	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+ol	src/styles/reset.css	/^ol, ul {$/;"	s
+orange	src/assets/palettes/gruvbox-dark.scss	/^$orange: #d65d0e;$/;"	v
+orange	src/assets/palettes/gruvbox-light.scss	/^$orange: #d65d0e;$/;"	v
+orange100	src/assets/palettes/material.scss	/^$orange100: #ffe0b2;$/;"	v
+orange100	src/assets/palettes/orange.scss	/^$orange100: #ffe0b2;$/;"	v
+orange200	src/assets/palettes/material.scss	/^$orange200: #ffcc80;$/;"	v
+orange200	src/assets/palettes/orange.scss	/^$orange200: #ffcc80;$/;"	v
+orange300	src/assets/palettes/material.scss	/^$orange300: #ffb74d;$/;"	v
+orange300	src/assets/palettes/orange.scss	/^$orange300: #ffb74d;$/;"	v
+orange400	src/assets/palettes/material.scss	/^$orange400: #ffa726;$/;"	v
+orange400	src/assets/palettes/orange.scss	/^$orange400: #ffa726;$/;"	v
+orange50	src/assets/palettes/material.scss	/^$orange50: #fff3e0;$/;"	v
+orange50	src/assets/palettes/orange.scss	/^$orange50: #fff3e0;$/;"	v
+orange500	src/assets/palettes/material.scss	/^$orange500: #ff9800;$/;"	v
+orange500	src/assets/palettes/orange.scss	/^$orange500: #ff9800;$/;"	v
+orange600	src/assets/palettes/material.scss	/^$orange600: #fb8c00;$/;"	v
+orange600	src/assets/palettes/orange.scss	/^$orange600: #fb8c00;$/;"	v
+orange700	src/assets/palettes/material.scss	/^$orange700: #f57c00;$/;"	v
+orange700	src/assets/palettes/orange.scss	/^$orange700: #f57c00;$/;"	v
+orange800	src/assets/palettes/material.scss	/^$orange800: #ef6c00;$/;"	v
+orange800	src/assets/palettes/orange.scss	/^$orange800: #ef6c00;$/;"	v
+orange900	src/assets/palettes/material.scss	/^$orange900: #e65100;$/;"	v
+orange900	src/assets/palettes/orange.scss	/^$orange900: #e65100;$/;"	v
+orangea100	src/assets/palettes/material.scss	/^$orangea100: #ffd180;$/;"	v
+orangea100	src/assets/palettes/orange.scss	/^$orangea100: #ffd180;$/;"	v
+orangea200	src/assets/palettes/material.scss	/^$orangea200: #ffab40;$/;"	v
+orangea200	src/assets/palettes/orange.scss	/^$orangea200: #ffab40;$/;"	v
+orangea400	src/assets/palettes/material.scss	/^$orangea400: #ff9100;$/;"	v
+orangea400	src/assets/palettes/orange.scss	/^$orangea400: #ff9100;$/;"	v
+orangea700	src/assets/palettes/material.scss	/^$orangea700: #ff6d00;$/;"	v
+orangea700	src/assets/palettes/orange.scss	/^$orangea700: #ff6d00;$/;"	v
+output	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+p	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+path	webpack.config.js	/^const path = require('path')$/;"	C
+pink100	src/assets/palettes/material.scss	/^$pink100: #f8bbd0;$/;"	v
+pink100	src/assets/palettes/pink.scss	/^$pink100: #f8bbd0;$/;"	v
+pink200	src/assets/palettes/material.scss	/^$pink200: #f48fb1;$/;"	v
+pink200	src/assets/palettes/pink.scss	/^$pink200: #f48fb1;$/;"	v
+pink300	src/assets/palettes/material.scss	/^$pink300: #f06292;$/;"	v
+pink300	src/assets/palettes/pink.scss	/^$pink300: #f06292;$/;"	v
+pink400	src/assets/palettes/material.scss	/^$pink400: #ec407a;$/;"	v
+pink400	src/assets/palettes/pink.scss	/^$pink400: #ec407a;$/;"	v
+pink50	src/assets/palettes/material.scss	/^$pink50: #fce4ec;$/;"	v
+pink50	src/assets/palettes/pink.scss	/^$pink50: #fce4ec;$/;"	v
+pink500	src/assets/palettes/material.scss	/^$pink500: #e91e63;$/;"	v
+pink500	src/assets/palettes/pink.scss	/^$pink500: #e91e63;$/;"	v
+pink600	src/assets/palettes/material.scss	/^$pink600: #d81b60;$/;"	v
+pink600	src/assets/palettes/pink.scss	/^$pink600: #d81b60;$/;"	v
+pink700	src/assets/palettes/material.scss	/^$pink700: #c2185b;$/;"	v
+pink700	src/assets/palettes/pink.scss	/^$pink700: #c2185b;$/;"	v
+pink800	src/assets/palettes/material.scss	/^$pink800: #ad1457;$/;"	v
+pink800	src/assets/palettes/pink.scss	/^$pink800: #ad1457;$/;"	v
+pink900	src/assets/palettes/material.scss	/^$pink900: #880e4f;$/;"	v
+pink900	src/assets/palettes/pink.scss	/^$pink900: #880e4f;$/;"	v
+pinka100	src/assets/palettes/material.scss	/^$pinka100: #ff80ab;$/;"	v
+pinka100	src/assets/palettes/pink.scss	/^$pinka100: #ff80ab;$/;"	v
+pinka200	src/assets/palettes/material.scss	/^$pinka200: #ff4081;$/;"	v
+pinka200	src/assets/palettes/pink.scss	/^$pinka200: #ff4081;$/;"	v
+pinka400	src/assets/palettes/material.scss	/^$pinka400: #f50057;$/;"	v
+pinka400	src/assets/palettes/pink.scss	/^$pinka400: #f50057;$/;"	v
+pinka700	src/assets/palettes/material.scss	/^$pinka700: #c51162;$/;"	v
+pinka700	src/assets/palettes/pink.scss	/^$pinka700: #c51162;$/;"	v
+plugins	babel.config.js	/^  plugins: [$/;"	p	class:module.exports
+pre	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
+prebuild	package.json	/^    "prebuild": "npm run clean-dist",$/;"	s	object:scripts
+predev	package.json	/^    "predev": "npm run clean-dist",$/;"	s	object:scripts
+presets	babel.config.js	/^  presets: [$/;"	p	class:module.exports
+prestart	package.json	/^    "prestart": "npm run clean-dist",$/;"	s	object:scripts
+prettier	package.json	/^    "prettier": "^2.0.5",$/;"	s	object:devDependencies
+printWidth	.prettierrc.js	/^  printWidth: 80,$/;"	p	class:module.exports
+private	package.json	/^  "private": true,$/;"	b
+prop-types	package.json	/^    "prop-types": "^15.7.2",$/;"	s	object:dependencies
+propTypes	src/Root.js	/^Root.propTypes = {$/;"	c	class:Root
+propTypes	src/styles/MainStyles.js	/^MainStyles.propTypes = {$/;"	c	class:MainStyles
+purple	src/assets/palettes/gruvbox-dark.scss	/^$purple: #b16286;$/;"	v
+purple	src/assets/palettes/gruvbox-light.scss	/^$purple: #b16286;$/;"	v
+purple100	src/assets/palettes/material.scss	/^$purple100: #e1bee7;$/;"	v
+purple100	src/assets/palettes/purple.scss	/^$purple100: #e1bee7;$/;"	v
+purple200	src/assets/palettes/material.scss	/^$purple200: #ce93d8;$/;"	v
+purple200	src/assets/palettes/purple.scss	/^$purple200: #ce93d8;$/;"	v
+purple300	src/assets/palettes/material.scss	/^$purple300: #ba68c8;$/;"	v
+purple300	src/assets/palettes/purple.scss	/^$purple300: #ba68c8;$/;"	v
+purple400	src/assets/palettes/material.scss	/^$purple400: #ab47bc;$/;"	v
+purple400	src/assets/palettes/purple.scss	/^$purple400: #ab47bc;$/;"	v
+purple50	src/assets/palettes/material.scss	/^$purple50: #f3e5f5;$/;"	v
+purple50	src/assets/palettes/purple.scss	/^$purple50: #f3e5f5;$/;"	v
+purple500	src/assets/palettes/material.scss	/^$purple500: #9c27b0;$/;"	v
+purple500	src/assets/palettes/purple.scss	/^$purple500: #9c27b0;$/;"	v
+purple600	src/assets/palettes/material.scss	/^$purple600: #8e24aa;$/;"	v
+purple600	src/assets/palettes/purple.scss	/^$purple600: #8e24aa;$/;"	v
+purple700	src/assets/palettes/material.scss	/^$purple700: #7b1fa2;$/;"	v
+purple700	src/assets/palettes/purple.scss	/^$purple700: #7b1fa2;$/;"	v
+purple800	src/assets/palettes/material.scss	/^$purple800: #6a1b9a;$/;"	v
+purple800	src/assets/palettes/purple.scss	/^$purple800: #6a1b9a;$/;"	v
+purple900	src/assets/palettes/material.scss	/^$purple900: #4a148c;$/;"	v
+purple900	src/assets/palettes/purple.scss	/^$purple900: #4a148c;$/;"	v
+purplea100	src/assets/palettes/material.scss	/^$purplea100: #ea80fc;$/;"	v
+purplea100	src/assets/palettes/purple.scss	/^$purplea100: #ea80fc;$/;"	v
+purplea200	src/assets/palettes/material.scss	/^$purplea200: #e040fb;$/;"	v
+purplea200	src/assets/palettes/purple.scss	/^$purplea200: #e040fb;$/;"	v
+purplea400	src/assets/palettes/material.scss	/^$purplea400: #d500f9;$/;"	v
+purplea400	src/assets/palettes/purple.scss	/^$purplea400: #d500f9;$/;"	v
+purplea700	src/assets/palettes/material.scss	/^$purplea700: #aa00ff;$/;"	v
+purplea700	src/assets/palettes/purple.scss	/^$purplea700: #aa00ff;$/;"	v
+q	src/styles/reset.css	/^blockquote, q {$/;"	s
+q	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+q:after	src/styles/reset.css	/^q:before, q:after {$/;"	s
+q:before	src/styles/reset.css	/^q:before, q:after {$/;"	s
+react	package.json	/^    "react": "^16.13.1",$/;"	s	object:dependencies
+react-dom	package.json	/^    "react-dom": "^16.13.1"$/;"	s	object:dependencies
+react-test-renderer	package.json	/^    "react-test-renderer": "^16.13.1",$/;"	s	object:devDependencies
+red	src/assets/palettes/gruvbox-dark.scss	/^$red: #cc241d;$/;"	v
+red	src/assets/palettes/gruvbox-light.scss	/^$red: #cc241d;$/;"	v
+red100	src/assets/palettes/material.scss	/^$red100: #ffcdd2;$/;"	v
+red100	src/assets/palettes/red.scss	/^$red100: #ffcdd2;$/;"	v
+red200	src/assets/palettes/material.scss	/^$red200: #ef9a9a;$/;"	v
+red200	src/assets/palettes/red.scss	/^$red200: #ef9a9a;$/;"	v
+red300	src/assets/palettes/material.scss	/^$red300: #e57373;$/;"	v
+red300	src/assets/palettes/red.scss	/^$red300: #e57373;$/;"	v
+red400	src/assets/palettes/material.scss	/^$red400: #ef5350;$/;"	v
+red400	src/assets/palettes/red.scss	/^$red400: #ef5350;$/;"	v
+red50	src/assets/palettes/material.scss	/^$red50: #ffebee;$/;"	v
+red50	src/assets/palettes/red.scss	/^$red50: #ffebee;$/;"	v
+red500	src/assets/palettes/material.scss	/^$red500: #f44336;$/;"	v
+red500	src/assets/palettes/red.scss	/^$red500: #f44336;$/;"	v
+red600	src/assets/palettes/material.scss	/^$red600: #e53935;$/;"	v
+red600	src/assets/palettes/red.scss	/^$red600: #e53935;$/;"	v
+red700	src/assets/palettes/material.scss	/^$red700: #d32f2f;$/;"	v
+red700	src/assets/palettes/red.scss	/^$red700: #d32f2f;$/;"	v
+red800	src/assets/palettes/material.scss	/^$red800: #c62828;$/;"	v
+red800	src/assets/palettes/red.scss	/^$red800: #c62828;$/;"	v
+red900	src/assets/palettes/material.scss	/^$red900: #b71c1c;$/;"	v
+red900	src/assets/palettes/red.scss	/^$red900: #b71c1c;$/;"	v
+reda100	src/assets/palettes/material.scss	/^$reda100: #ff8a80;$/;"	v
+reda100	src/assets/palettes/red.scss	/^$reda100: #ff8a80;$/;"	v
+reda200	src/assets/palettes/material.scss	/^$reda200: #ff5252;$/;"	v
+reda200	src/assets/palettes/red.scss	/^$reda200: #ff5252;$/;"	v
+reda400	src/assets/palettes/material.scss	/^$reda400: #ff1744;$/;"	v
+reda400	src/assets/palettes/red.scss	/^$reda400: #ff1744;$/;"	v
+reda700	src/assets/palettes/material.scss	/^$reda700: #d50000;$/;"	v
+reda700	src/assets/palettes/red.scss	/^$reda700: #d50000;$/;"	v
+render	src/components/TopContext.js	/^  render() {$/;"	m	class:MyProvider
+render	src/components/TopContext.js	/^  render() {$/;"	m	class:Person
+render	src/components/TopContext.js	/^  render() {$/;"	m	class:TopContext
+repository	package.json	/^  "repository": {$/;"	o
+rimraf	package.json	/^    "rimraf": "^3.0.2",$/;"	s	object:devDependencies
+roboto	src/styles/MainStyles.js	/^const roboto = "'Roboto', sans-serif;"$/;"	C
+root	.eslintrc.js	/^  root: true,$/;"	p	class:module.exports
+root	src/index.html	/^    <div id="root"><\/div>$/;"	I
+rootContainer	src/index.js	/^const rootContainer = document.getElementById('root')$/;"	C
+ruby	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+s	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+samp	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+sass-loader	package.json	/^    "sass-loader": "^8.0.2",$/;"	s	object:devDependencies
+scripts	package.json	/^  "scripts": {$/;"	o
+section	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+section	src/styles/reset.css	/^header, hgroup, main, menu, nav, section {$/;"	s
+semi	.prettierrc.js	/^  semi: false,$/;"	p	class:module.exports
+share	package.json	/^    "share": "run-s devserver localtunnel",$/;"	s	object:scripts
+singleQuote	.prettierrc.js	/^  singleQuote: true,$/;"	p	class:module.exports
+small	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+span	src/styles/reset.css	/^html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,$/;"	s
+span_wght	src/assets/fonts/fira_code/specimen.html	/^<input type="range" min="300" max="700" value="400" step="10" style="width: 300px;" oninput="onW/;"	I
+start	package.json	/^    "start": "npm run devserver"$/;"	s	object:scripts
+state	src/components/TopContext.js	/^    super(props)$/;"	c	class:super
+strike	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+strong	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+style-loader	package.json	/^    "style-loader": "^1.2.1",$/;"	s	object:devDependencies
+styles	src/styles/GlobalStyles.js	/^const styles = css`$/;"	C
+sub	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+summary	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
+summary	src/styles/reset.css	/^summary {$/;"	s
+sup	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+tabWidth	.prettierrc.js	/^  tabWidth: 2,$/;"	p	class:module.exports
+table	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+table	src/styles/reset.css	/^table {$/;"	s
+tbody	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+td	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+teal100	src/assets/palettes/material.scss	/^$teal100: #b2dfdb;$/;"	v
+teal100	src/assets/palettes/teal.scss	/^$teal100: #b2dfdb;$/;"	v
+teal200	src/assets/palettes/material.scss	/^$teal200: #80cbc4;$/;"	v
+teal200	src/assets/palettes/teal.scss	/^$teal200: #80cbc4;$/;"	v
+teal300	src/assets/palettes/material.scss	/^$teal300: #4db6ac;$/;"	v
+teal300	src/assets/palettes/teal.scss	/^$teal300: #4db6ac;$/;"	v
+teal400	src/assets/palettes/material.scss	/^$teal400: #26a69a;$/;"	v
+teal400	src/assets/palettes/teal.scss	/^$teal400: #26a69a;$/;"	v
+teal50	src/assets/palettes/material.scss	/^$teal50: #e0f2f1;$/;"	v
+teal50	src/assets/palettes/teal.scss	/^$teal50: #e0f2f1;$/;"	v
+teal500	src/assets/palettes/material.scss	/^$teal500: #009688;$/;"	v
+teal500	src/assets/palettes/teal.scss	/^$teal500: #009688;$/;"	v
+teal600	src/assets/palettes/material.scss	/^$teal600: #00897b;$/;"	v
+teal600	src/assets/palettes/teal.scss	/^$teal600: #00897b;$/;"	v
+teal700	src/assets/palettes/material.scss	/^$teal700: #00796b;$/;"	v
+teal700	src/assets/palettes/teal.scss	/^$teal700: #00796b;$/;"	v
+teal800	src/assets/palettes/material.scss	/^$teal800: #00695c;$/;"	v
+teal800	src/assets/palettes/teal.scss	/^$teal800: #00695c;$/;"	v
+teal900	src/assets/palettes/material.scss	/^$teal900: #004d40;$/;"	v
+teal900	src/assets/palettes/teal.scss	/^$teal900: #004d40;$/;"	v
+teala100	src/assets/palettes/material.scss	/^$teala100: #a7ffeb;$/;"	v
+teala100	src/assets/palettes/teal.scss	/^$teala100: #a7ffeb;$/;"	v
+teala200	src/assets/palettes/material.scss	/^$teala200: #64ffda;$/;"	v
+teala200	src/assets/palettes/teal.scss	/^$teala200: #64ffda;$/;"	v
+teala400	src/assets/palettes/material.scss	/^$teala400: #1de9b6;$/;"	v
+teala400	src/assets/palettes/teal.scss	/^$teala400: #1de9b6;$/;"	v
+teala700	src/assets/palettes/material.scss	/^$teala700: #00bfa5;$/;"	v
+teala700	src/assets/palettes/teal.scss	/^$teala700: #00bfa5;$/;"	v
+test	package.json	/^    "test": "jest",$/;"	s	object:scripts
+testEnvironment	jest.config.js	/^  testEnvironment: 'node',$/;"	p	class:module.exports
+tfoot	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+th	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+thead	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+time	src/styles/reset.css	/^time, mark, audio, video {$/;"	s
+tr	src/styles/reset.css	/^tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,$/;"	s
+trailingComma	.prettierrc.js	/^  trailingComma: 'es5',$/;"	p	class:module.exports
+tt	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+type	package.json	/^    "type": "git",$/;"	s	object:repository
+u	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+ul	src/styles/reset.css	/^dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,$/;"	s
+ul	src/styles/reset.css	/^ol, ul {$/;"	s
+url	package.json	/^    "url": "https:\/\/github.com\/NicksIdeaEngine\/sandbox.git"$/;"	s	object:repository
+url	package.json	/^    "url": "https:\/\/github.com\/NicksIdeaEngine\/sandbox\/issues",$/;"	s	object:bugs
+var	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+verbose	jest.config.js	/^  verbose: true,$/;"	p	class:module.exports
+version	package.json	/^  "version": "0.0.1",$/;"	s
+video	src/styles/reset.css	/^time, mark, audio, video {$/;"	s
+webpack	package.json	/^    "webpack": "^4.43.0",$/;"	s	object:devDependencies
+webpack-cli	package.json	/^    "webpack-cli": "^3.3.12",$/;"	s	object:devDependencies
+webpack-dev-server	package.json	/^    "webpack-dev-server": "^3.11.0"$/;"	s	object:devDependencies
+white	src/assets/palettes/gray.scss	/^$white: #ffffff;$/;"	v
+white	src/assets/palettes/material.scss	/^$white: #ffffff;$/;"	v
+yellow	src/assets/palettes/gruvbox-dark.scss	/^$yellow: #d79921;$/;"	v
+yellow	src/assets/palettes/gruvbox-light.scss	/^$yellow: #d79921;$/;"	v
+yellow100	src/assets/palettes/material.scss	/^$yellow100: #fff9c4;$/;"	v
+yellow100	src/assets/palettes/yellow.scss	/^$yellow100: #fff9c4;$/;"	v
+yellow200	src/assets/palettes/material.scss	/^$yellow200: #fff59d;$/;"	v
+yellow200	src/assets/palettes/yellow.scss	/^$yellow200: #fff59d;$/;"	v
+yellow300	src/assets/palettes/material.scss	/^$yellow300: #fff176;$/;"	v
+yellow300	src/assets/palettes/yellow.scss	/^$yellow300: #fff176;$/;"	v
+yellow400	src/assets/palettes/material.scss	/^$yellow400: #ffee58;$/;"	v
+yellow400	src/assets/palettes/yellow.scss	/^$yellow400: #ffee58;$/;"	v
+yellow50	src/assets/palettes/material.scss	/^$yellow50: #fffde7;$/;"	v
+yellow50	src/assets/palettes/yellow.scss	/^$yellow50: #fffde7;$/;"	v
+yellow500	src/assets/palettes/material.scss	/^$yellow500: #ffeb3b;$/;"	v
+yellow500	src/assets/palettes/yellow.scss	/^$yellow500: #ffeb3b;$/;"	v
+yellow600	src/assets/palettes/material.scss	/^$yellow600: #fdd835;$/;"	v
+yellow600	src/assets/palettes/yellow.scss	/^$yellow600: #fdd835;$/;"	v
+yellow700	src/assets/palettes/material.scss	/^$yellow700: #fbc02d;$/;"	v
+yellow700	src/assets/palettes/yellow.scss	/^$yellow700: #fbc02d;$/;"	v
+yellow800	src/assets/palettes/material.scss	/^$yellow800: #f9a825;$/;"	v
+yellow800	src/assets/palettes/yellow.scss	/^$yellow800: #f9a825;$/;"	v
+yellow900	src/assets/palettes/material.scss	/^$yellow900: #f57f17;$/;"	v
+yellow900	src/assets/palettes/yellow.scss	/^$yellow900: #f57f17;$/;"	v
+yellowa100	src/assets/palettes/material.scss	/^$yellowa100: #ffff8d;$/;"	v
+yellowa100	src/assets/palettes/yellow.scss	/^$yellowa100: #ffff8d;$/;"	v
+yellowa200	src/assets/palettes/material.scss	/^$yellowa200: #ffff00;$/;"	v
+yellowa200	src/assets/palettes/yellow.scss	/^$yellowa200: #ffff00;$/;"	v
+yellowa400	src/assets/palettes/material.scss	/^$yellowa400: #ffea00;$/;"	v
+yellowa400	src/assets/palettes/yellow.scss	/^$yellowa400: #ffea00;$/;"	v
+yellowa700	src/assets/palettes/material.scss	/^$yellowa700: #ffd600;$/;"	v
+yellowa700	src/assets/palettes/yellow.scss	/^$yellowa700: #ffd600;$/;"	v
