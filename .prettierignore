@@ -1,0 +1,12 @@
+.cache
+.git
+dist
+examples
+node_modules
+notes
+public
+reference
+static
+package.json
+package-lock.json
+src/styles/reset.css

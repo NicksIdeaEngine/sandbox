@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Root from './Root';
-import App from './App';
-import './styles/main.scss';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const rootContainer = document.getElementById('root');
+import Root from './Root'
+import App from './App'
+
+import './assets/fonts/fonts.css'
+
+const rootContainer = document.getElementById('root')
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,5 +14,5 @@ ReactDOM.render(
       <App />
     </Root>
   </React.StrictMode>,
-  rootContainer,
-);
+  rootContainer
+)

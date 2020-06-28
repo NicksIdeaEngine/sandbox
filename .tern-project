@@ -1,0 +1,32 @@
+{
+  "libs": [
+    "browser",
+    "ecmascript",
+    "react"
+  ],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "ecmaVersion": "10",
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": null,
+    "es_modules": {},
+    "modules": {},
+    "node": {},
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {
+        "clr": "src/colors",
+        "cmp": "src/components/",
+        "data": "src/data",
+        "img": "src/img",
+        "lib": "src/lib",
+        "sty": "src/styles"
+      }
+    },
+    "webpack": {
+      "configPath": "webpack.config.js --env.development"
+    }
+  }
+}
