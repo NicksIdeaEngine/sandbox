@@ -41,7 +41,7 @@ module.exports = {
     'prettier',
     'jsx-a11y',
   ],
-  reportUnusedDisableDirectives: true,
+  reportUnusedDisableDirectives: false,
   rules: {
     'jsx-a11y/href-no-hash': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],

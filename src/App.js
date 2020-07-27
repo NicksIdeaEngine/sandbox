@@ -1,11 +1,14 @@
+/* eslint-disable */
 import React from 'react'
 import styled from '@emotion/styled'
 
 import color from './assets/palettes/material.scss'
-// eslint-disable-next-line no-unused-vars
 import gruv from './assets/palettes/gruvbox-light.scss'
 
-import TopContext from './components/TopContext'
+import Gameboard from './components/Gameboard'
+import Menu from './components/Menu'
+
+import useBoardState from './utils/useBoardState'
 
 const AppContainer = styled.div`
   margin: 0 auto;
@@ -16,9 +19,12 @@ const AppContainer = styled.div`
 `
 
 function App() {
+  const { boardState, resetBoard } = useBoardState()
+
   return (
     <AppContainer className="app-container">
-      <TopContext />
+      <Gameboard boardState={boardState} resetBoard={resetBoard} />
+      <Menu boardState={boardState} resetBoard={resetBoard} />
     </AppContainer>
   )
 }

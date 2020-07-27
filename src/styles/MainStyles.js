@@ -10,6 +10,11 @@ const fira = "'Fira Code', sans-serif;"
 const montserrat = "'Montserrat', sans-serif;"
 
 const MainContainer = styled.main`
+  .app-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   h1,
   h2,
   h3,
