@@ -696,14 +696,11 @@
 @xtuc/long	package-lock.json	/^        "@xtuc\/long": "4.2.2"$/;"	s	object:dependencies.@webassemblyjs/wast-parser.requires
 @xtuc/long	package-lock.json	/^        "@xtuc\/long": "4.2.2"$/;"	s	object:dependencies.@webassemblyjs/wast-printer.requires
 @xtuc/long	package-lock.json	/^    "@xtuc\/long": {$/;"	o	object:dependencies
-App	src/App.js	/^function App() {$/;"	f
-AppContainer	src/App.js	/^const AppContainer = styled.div`$/;"	C
-Gameboard	src/components/Gameboard.js	/^const Gameboard = ({ boardState, resetBoard }) => {$/;"	C
+Doggo	src/assets/Doggo.js	/^const Doggo = () => {$/;"	C
 GlobalStyles	src/styles/GlobalStyles.js	/^const GlobalStyles = () => <Global styles={styles} \/>$/;"	C
 HtmlWebpackPlugin	webpack.config.js	/^const HtmlWebpackPlugin = require('html-webpack-plugin')$/;"	C
 MainContainer	src/styles/MainStyles.js	/^const MainContainer = styled.main`$/;"	C
 MainStyles	src/styles/MainStyles.js	/^const MainStyles = ({ children }) => ($/;"	C
-Menu	src/components/Menu.js	/^const Menu = ({ boardState, resetBoard }) => {$/;"	C
 Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100.svg	/^<font id="Montserrat" horiz-adv-x="626" ><font-face$/;"	d
 Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100.svg	/^<font id="Montserrat" horiz-adv-x="626" ><font-face$/;"	i
 Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-100italic.svg	/^<font id="Montserrat" horiz-adv-x="628" ><font-face$/;"	d
@@ -742,7 +739,6 @@ Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-regular.svg	/^<f
 Montserrat	src/assets/fonts/montserrat/svg/montserrat-v14-latin-regular.svg	/^<font id="Montserrat" horiz-adv-x="639" ><font-face$/;"	i
 PATH_DIST	webpack.config.js	/^const PATH_DIST = path.join(__dirname, '.\/dist')$/;"	C
 PATH_SOURCE	webpack.config.js	/^const PATH_SOURCE = path.join(__dirname, '.\/src')$/;"	C
-PageContainer	src/Root.js	/^const PageContainer = styled.div`$/;"	C
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	d
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100.svg	/^<font id="Roboto" horiz-adv-x="1113" ><font-face$/;"	i
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-100italic.svg	/^<font id="Roboto" horiz-adv-x="1092" ><font-face$/;"	d
@@ -767,7 +763,6 @@ Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-italic.svg	/^<font id="Robot
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-italic.svg	/^<font id="Roboto" horiz-adv-x="1135" ><font-face$/;"	i
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-regular.svg	/^<font id="Roboto" horiz-adv-x="1158" ><font-face$/;"	d
 Roboto	src/assets/fonts/roboto/svg/roboto-v20-latin-regular.svg	/^<font id="Roboto" horiz-adv-x="1158" ><font-face$/;"	i
-Root	src/Root.js	/^const Root = ({ children }) => {$/;"	C
 a	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
 abab	package-lock.json	/^        "abab": "^2.0.0",$/;"	s	object:dependencies.data-urls.requires
 abab	package-lock.json	/^        "abab": "^2.0.0",$/;"	s	object:dependencies.jsdom.requires
@@ -1375,7 +1370,6 @@ chalk	package-lock.json	/^        "chalk": {$/;"	o	object:dependencies.node-sass
 chalk	package-lock.json	/^    "chalk": {$/;"	o	object:dependencies
 chardet	package-lock.json	/^        "chardet": "^0.7.0",$/;"	s	object:dependencies.external-editor.requires
 chardet	package-lock.json	/^    "chardet": {$/;"	o	object:dependencies
-children	src/Root.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:Root.propTypes
 children	src/styles/MainStyles.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:MainStyles.propTypes
 chokidar	package-lock.json	/^        "chokidar": "^2.1.8"$/;"	s	object:dependencies.watchpack-chokidar2.requires
 chokidar	package-lock.json	/^        "chokidar": "^2.1.8",$/;"	s	object:dependencies.@babel/cli.requires
@@ -1397,13 +1391,14 @@ cipher-base	package-lock.json	/^    "cipher-base": {$/;"	o	object:dependencies
 cite	src/styles/reset.css	/^blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,$/;"	s
 class-utils	package-lock.json	/^        "class-utils": "^0.3.5",$/;"	s	object:dependencies.base.requires
 class-utils	package-lock.json	/^    "class-utils": {$/;"	o	object:dependencies
-clean-all	package.json	/^    "clean-all": "npm-run-all clean-dist clean-components clean-lib clean-public",$/;"	s	object:scripts
-clean-components	package.json	/^    "clean-components": "rimraf components\/*",$/;"	s	object:scripts
+clean-all	package.json	/^    "clean-all": "npm-run-all clean-components clean-dist clean-lib clean-public clean-utils",$/;"	s	object:scripts
+clean-components	package.json	/^    "clean-components": "rimraf src\/components\/*",$/;"	s	object:scripts
 clean-css	package-lock.json	/^        "clean-css": "^4.2.3",$/;"	s	object:dependencies.html-minifier-terser.requires
 clean-css	package-lock.json	/^    "clean-css": {$/;"	o	object:dependencies
 clean-dist	package.json	/^    "clean-dist": "rimraf dist\/*",$/;"	s	object:scripts
-clean-lib	package.json	/^    "clean-lib": "rimraf lib\/*",$/;"	s	object:scripts
+clean-lib	package.json	/^    "clean-lib": "rimraf src\/lib\/*",$/;"	s	object:scripts
 clean-public	package.json	/^    "clean-public": "rimraf public\/*",$/;"	s	object:scripts
+clean-utils	package.json	/^    "clean-utils": "rimraf src\/utils\/*",$/;"	s	object:scripts
 clearMocks	jest.config.js	/^  clearMocks: true,$/;"	p	class:module.exports
 cli-cursor	package-lock.json	/^        "cli-cursor": "^3.1.0",$/;"	s	object:dependencies.inquirer.requires
 cli-cursor	package-lock.json	/^    "cli-cursor": {$/;"	o	object:dependencies
@@ -1569,7 +1564,6 @@ color8	src/assets/palettes/gruvbox-dark.scss	/^$color8: #928374;$/;"	v
 color8	src/assets/palettes/gruvbox-light.scss	/^$color8: #928374;$/;"	v
 color9	src/assets/palettes/gruvbox-dark.scss	/^$color9: #fb4934;$/;"	v
 color9	src/assets/palettes/gruvbox-light.scss	/^$color9: #9d0006;$/;"	v
-column	src/lib/createEmptyBoard.js	/^  let column = 1$/;"	v
 combined-stream	package-lock.json	/^        "combined-stream": "^1.0.6",$/;"	s	object:dependencies.form-data.requires
 combined-stream	package-lock.json	/^        "combined-stream": "~1.0.6",$/;"	s	object:dependencies.request.requires
 combined-stream	package-lock.json	/^    "combined-stream": {$/;"	o	object:dependencies
@@ -1652,9 +1646,6 @@ create-hmac	package-lock.json	/^        "create-hmac": "^1.1.0",$/;"	s	object:de
 create-hmac	package-lock.json	/^        "create-hmac": "^1.1.4",$/;"	s	object:dependencies.pbkdf2.requires
 create-hmac	package-lock.json	/^        "create-hmac": "^1.1.7",$/;"	s	object:dependencies.browserify-sign.requires
 create-hmac	package-lock.json	/^    "create-hmac": {$/;"	o	object:dependencies
-createEmptyBoard	src/lib/createEmptyBoard.js	/^const createEmptyBoard = ({ propTest = '5' } = {}) => {$/;"	C
-createNewRow	src/lib/createEmptyBoard.js	/^const createNewRow = ({ test = '1', row = 1 } = {}) => {$/;"	C
-createNewTile	src/lib/createEmptyBoard.js	/^const createNewTile = ({ test = '0', idNum = 1, row = 1, column = 1 } = {}) => {$/;"	C
 cross-spawn	package-lock.json	/^            "cross-spawn": "^7.0.0",$/;"	s	object:dependencies.jest-changed-files.dependencies.execa.requires
 cross-spawn	package-lock.json	/^        "cross-spawn": "^3.0.0",$/;"	s	object:dependencies.node-sass.requires
 cross-spawn	package-lock.json	/^        "cross-spawn": "^6.0.0",$/;"	s	object:dependencies.execa.requires
@@ -4346,8 +4337,6 @@ icss-utils	package-lock.json	/^        "icss-utils": "^4.0.0",$/;"	s	object:depe
 icss-utils	package-lock.json	/^        "icss-utils": "^4.1.1",$/;"	s	object:dependencies.css-loader.requires
 icss-utils	package-lock.json	/^        "icss-utils": "^4.1.1",$/;"	s	object:dependencies.postcss-modules-local-by-default.requires
 icss-utils	package-lock.json	/^    "icss-utils": {$/;"	o	object:dependencies
-id	src/lib/createEmptyBoard.js	/^  const id = `tile-${idNum}`$/;"	C
-idNum	src/lib/createEmptyBoard.js	/^  let idNum = (row - 1) * 3$/;"	v
 ieee754	package-lock.json	/^        "ieee754": "^1.1.4",$/;"	s	object:dependencies.buffer.requires
 ieee754	package-lock.json	/^    "ieee754": {$/;"	o	object:dependencies
 iferr	package-lock.json	/^        "iferr": "^0.1.5",$/;"	s	object:dependencies.copy-concurrently.requires
@@ -6662,6 +6651,7 @@ loose-envify	package-lock.json	/^        "loose-envify": "^1.1.0",$/;"	s	object:
 loose-envify	package-lock.json	/^        "loose-envify": "^1.1.0",$/;"	s	object:dependencies.scheduler.requires
 loose-envify	package-lock.json	/^        "loose-envify": "^1.4.0",$/;"	s	object:dependencies.prop-types.requires
 loose-envify	package-lock.json	/^    "loose-envify": {$/;"	o	object:dependencies
+lorg	src/assets/Doggo.js	/^  const lorg = 'https:\/\/placedog.net\/575\/400?random'$/;"	C
 loud-rejection	package-lock.json	/^        "loud-rejection": "^1.0.0",$/;"	s	object:dependencies.meow.requires
 loud-rejection	package-lock.json	/^    "loud-rejection": {$/;"	o	object:dependencies
 lower-case	package-lock.json	/^        "lower-case": "^2.0.1",$/;"	s	object:dependencies.no-case.requires
@@ -6697,6 +6687,7 @@ mark	src/styles/reset.css	/^time, mark, audio, video {$/;"	s
 md5.js	package-lock.json	/^        "md5.js": "^1.3.4",$/;"	s	object:dependencies.create-hash.requires
 md5.js	package-lock.json	/^        "md5.js": "^1.3.4",$/;"	s	object:dependencies.evp_bytestokey.requires
 md5.js	package-lock.json	/^    "md5.js": {$/;"	o	object:dependencies
+med	src/assets/Doggo.js	/^  const med = 'https:\/\/placedog.net\/300\/300?random'$/;"	C
 media-typer	package-lock.json	/^        "media-typer": "0.3.0",$/;"	s	object:dependencies.type-is.requires
 media-typer	package-lock.json	/^    "media-typer": {$/;"	o	object:dependencies
 memory-fs	package-lock.json	/^        "memory-fs": "^0.4.1",$/;"	s	object:dependencies.webpack-dev-middleware.requires
@@ -7384,7 +7375,6 @@ prop-types	package-lock.json	/^        "prop-types": "^15.6.2",$/;"	s	object:dep
 prop-types	package-lock.json	/^        "prop-types": "^15.7.2",$/;"	s	object:dependencies.eslint-plugin-react.requires
 prop-types	package-lock.json	/^    "prop-types": {$/;"	o	object:dependencies
 prop-types	package.json	/^    "prop-types": "^15.7.2",$/;"	s	object:dependencies
-propTypes	src/Root.js	/^Root.propTypes = {$/;"	c	class:Root
 propTypes	src/styles/MainStyles.js	/^MainStyles.propTypes = {$/;"	c	class:MainStyles
 proxy-addr	package-lock.json	/^        "proxy-addr": "~2.0.5",$/;"	s	object:dependencies.express.requires
 proxy-addr	package-lock.json	/^    "proxy-addr": {$/;"	o	object:dependencies
@@ -8581,7 +8571,6 @@ requires	package-lock.json	/^  "requires": true,$/;"	b
 requires-port	package-lock.json	/^        "requires-port": "^1.0.0"$/;"	s	object:dependencies.http-proxy.requires
 requires-port	package-lock.json	/^        "requires-port": "^1.0.0"$/;"	s	object:dependencies.url-parse.requires
 requires-port	package-lock.json	/^    "requires-port": {$/;"	o	object:dependencies
-resetBoard	src/utils/useBoardState.js	/^  const resetBoard = (e) => {$/;"	C
 resolve	package-lock.json	/^        "resolve": "1.1.7"$/;"	s	object:dependencies.browser-resolve.requires
 resolve	package-lock.json	/^        "resolve": "^1.10.0",$/;"	s	object:dependencies.normalize-package-data.requires
 resolve	package-lock.json	/^        "resolve": "^1.12.0"$/;"	s	object:dependencies.babel-eslint.requires
@@ -10219,9 +10208,6 @@ ripemd160	package-lock.json	/^        "ripemd160": "^2.0.1",$/;"	s	object:depend
 ripemd160	package-lock.json	/^    "ripemd160": {$/;"	o	object:dependencies
 roboto	src/styles/MainStyles.js	/^const roboto = "'Roboto', sans-serif;"$/;"	C
 root	.eslintrc.js	/^  root: true,$/;"	p	class:module.exports
-root	src/index.html	/^    <div id="root"><\/div>$/;"	I
-rootContainer	src/index.js	/^const rootContainer = document.getElementById('root')$/;"	C
-row	src/lib/createEmptyBoard.js	/^  let row = 1$/;"	v
 rsvp	package-lock.json	/^        "rsvp": "^4.8.4"$/;"	s	object:dependencies.capture-exit.requires
 rsvp	package-lock.json	/^    "rsvp": {$/;"	o	object:dependencies
 ruby	src/styles/reset.css	/^figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,$/;"	s
@@ -10358,7 +10344,6 @@ set-blocking	package-lock.json	/^    "set-blocking": {$/;"	o	object:dependencies
 set-value	package-lock.json	/^        "set-value": "^2.0.0",$/;"	s	object:dependencies.cache-base.requires
 set-value	package-lock.json	/^        "set-value": "^2.0.1"$/;"	s	object:dependencies.union-value.requires
 set-value	package-lock.json	/^    "set-value": {$/;"	o	object:dependencies
-setBoardState	src/utils/useBoardState.js	/^  const [boardState, setBoardState] = useState(createEmptyBoard())$/;"	C
 setimmediate	package-lock.json	/^        "setimmediate": "^1.0.4"$/;"	s	object:dependencies.timers-browserify.requires
 setimmediate	package-lock.json	/^    "setimmediate": {$/;"	o	object:dependencies
 setprototypeof	package-lock.json	/^            "setprototypeof": "1.1.0",$/;"	s	object:dependencies.serve-index.dependencies.http-errors.requires
@@ -10419,6 +10404,7 @@ slash	package-lock.json	/^    "slash": {$/;"	o	object:dependencies
 slice-ansi	package-lock.json	/^        "slice-ansi": "^2.1.0",$/;"	s	object:dependencies.table.requires
 slice-ansi	package-lock.json	/^    "slice-ansi": {$/;"	o	object:dependencies
 small	src/styles/reset.css	/^ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,$/;"	s
+smol	src/assets/Doggo.js	/^  const smol = 'https:\/\/placedog.net\/150\/150?random'$/;"	C
 snapdragon	package-lock.json	/^        "snapdragon": "^0.8.1",$/;"	s	object:dependencies.braces.requires
 snapdragon	package-lock.json	/^        "snapdragon": "^0.8.1",$/;"	s	object:dependencies.expand-brackets.requires
 snapdragon	package-lock.json	/^        "snapdragon": "^0.8.1",$/;"	s	object:dependencies.extglob.requires
@@ -10750,7 +10736,6 @@ terser	package-lock.json	/^    "terser": {$/;"	o	object:dependencies
 terser-webpack-plugin	package-lock.json	/^        "terser-webpack-plugin": "^1.4.3",$/;"	s	object:dependencies.webpack.requires
 terser-webpack-plugin	package-lock.json	/^    "terser-webpack-plugin": {$/;"	o	object:dependencies
 test	package.json	/^    "test": "jest",$/;"	s	object:scripts
-test	src/lib/createEmptyBoard.js	/^  let test = '44'$/;"	v
 test-exclude	package-lock.json	/^        "test-exclude": "^6.0.0"$/;"	s	object:dependencies.babel-plugin-istanbul.requires
 test-exclude	package-lock.json	/^    "test-exclude": {$/;"	o	object:dependencies
 testEnvironment	jest.config.js	/^  testEnvironment: 'node',$/;"	p	class:module.exports
@@ -10902,7 +10887,6 @@ url-parse	package-lock.json	/^        "url-parse": "^1.4.3"$/;"	s	object:depende
 url-parse	package-lock.json	/^    "url-parse": {$/;"	o	object:dependencies
 use	package-lock.json	/^        "use": "^3.1.0"$/;"	s	object:dependencies.snapdragon.requires
 use	package-lock.json	/^    "use": {$/;"	o	object:dependencies
-useBoardState	src/utils/useBoardState.js	/^const useBoardState = () => {$/;"	C
 util	package-lock.json	/^        "util": "0.10.3"$/;"	s	object:dependencies.assert.requires
 util	package-lock.json	/^        "util": "^0.11.0",$/;"	s	object:dependencies.node-libs-browser.requires
 util	package-lock.json	/^        "util": {$/;"	o	object:dependencies.assert.dependencies

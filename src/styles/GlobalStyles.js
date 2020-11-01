@@ -3,7 +3,7 @@ import { Global, css } from '@emotion/core'
 
 const styles = css`
   * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
   }
 
   html {
@@ -24,6 +24,12 @@ const styles = css`
     -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-size: 20px;
+    background-color: #eceff1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
   }
 
   hgroup {
