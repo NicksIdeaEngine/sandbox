@@ -9,4 +9,6 @@ reference
 static
 package.json
 package-lock.json
+yarn.lock
 src/styles/reset.css
+src/assets

@@ -4,10 +4,12 @@
     "ecmascript",
     "react"
   ],
-  "dontLoad": [
+  "dontload": [
+    ".cache/**",
+    ".git/**",
     "node_modules/**"
   ],
-  "ecmaVersion": "10",
+  "ecmaversion": "10",
   "plugins": {
     "complete_strings": {},
     "doc_comment": null,
@@ -15,18 +17,22 @@
     "modules": {},
     "node": {},
     "requirejs": {
-      "baseURL": "./",
+      "baseurl": "./",
       "paths": {
         "clr": "src/colors",
         "cmp": "src/components/",
         "data": "src/data",
         "img": "src/img",
         "lib": "src/lib",
-        "sty": "src/styles"
+        "pgs": "src/pages",
+        "pst": "src/posts",
+        "sty": "src/styles",
+        "tmp": "src/templates",
+        "utl": "src/utils"
       }
     },
     "webpack": {
-      "configPath": "webpack.config.js --env.development"
+      "configpath": "webpack.config.js --env.development"
     }
   }
 }
